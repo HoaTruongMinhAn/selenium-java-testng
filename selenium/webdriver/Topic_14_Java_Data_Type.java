@@ -40,13 +40,18 @@ public class Topic_14_Java_Data_Type {
         Topic_14_Java_Data_Type t1 = new Topic_14_Java_Data_Type();
         t1.amount = 20;
 
-        Topic_14_Java_Data_Type t2;
-        t2 = t1;
+        Topic_14_Java_Data_Type t2 = new Topic_14_Java_Data_Type();
+
         System.out.println("-------------part 3");
         System.out.println("t1: " + t1.amount);
         System.out.println("t2: " + t2.amount);
 
         t1.amount = 25;
+        t2 = t1;
+        System.out.println("t1: " + t1.amount);
+        System.out.println("t2: " + t2.amount);
+
+        t1.amount = 30;
         System.out.println("t1: " + t1.amount);
         System.out.println("t2: " + t2.amount);
     }
