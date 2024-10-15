@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Topic_16_XPathCss_Part1 {
+public class Topic_03_Relative_Locator {
     WebDriver driver;
 
     @BeforeClass

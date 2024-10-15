@@ -8,9 +8,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
-
-public class Topic_15_Locator {
+public class Topic_02_Locator {
     WebDriver driver;
 
     @BeforeClass
