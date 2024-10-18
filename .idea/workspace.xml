@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="test from C">
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic 05">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_05_XPath_Tech.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_05_XPath_Tech.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2nXruWaO4OfbH2XJnu2voEUmFQy" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,9 +39,11 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.Topic_00_Template.executor": "Run",
+    "TestNG.Topic_05_XPath_Tech.TC_02_XPath_With_Position.executor": "Run",
+    "TestNG.Topic_05_XPath_Tech.TC_03_XPath_With_AXES.executor": "Run",
     "TestNG.Topic_05_XPath_Tech.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RunManager" selected="TestNG.Topic_05_XPath_Tech">
@@ -78,9 +81,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_05_XPath_Tech.TC_02_XPath_With_Position" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_05_XPath_Tech" />
+      <option name="METHOD_NAME" value="TC_02_XPath_With_Position" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_05_XPath_Tech.TC_03_XPath_With_AXES" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_05_XPath_Tech" />
+      <option name="METHOD_NAME" value="TC_03_XPath_With_AXES" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Topic_05_XPath_Tech" />
+        <item itemvalue="TestNG.Topic_05_XPath_Tech.TC_03_XPath_With_AXES" />
+        <item itemvalue="TestNG.Topic_05_XPath_Tech.TC_02_XPath_With_Position" />
         <item itemvalue="TestNG.Topic_00_Template" />
       </list>
     </recent_temporary>
@@ -102,11 +143,20 @@
       <option name="project" value="LOCAL" />
       <updated>1729131694190</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Topic 05">
+      <option name="closed" value="true" />
+      <created>1729135641535</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729135641535</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test from C" />
-    <option name="LAST_COMMIT_MESSAGE" value="test from C" />
+    <MESSAGE value="Topic 05" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic 05" />
   </component>
 </project>
