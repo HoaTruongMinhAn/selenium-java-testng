@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic 05">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_05_XPath_Tech_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-api-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-chrome-driver-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-chromium-driver-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-devtools-v127-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-devtools-v128-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-devtools-v129-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-devtools-v85-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-edge-driver-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-firefox-driver-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-http-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-ie-driver-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-java-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-json-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-manager-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-os-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-remote-driver-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-safari-driver-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/selenium-support-4.25.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDoc/testng-7.10.2-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libraries.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_05_XPath_Tech.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_05_XPath_Tech.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +62,24 @@
     "TestNG.Topic_05_XPath_Tech.TC_02_XPath_With_Position.executor": "Run",
     "TestNG.Topic_05_XPath_Tech.TC_03_XPath_With_AXES.executor": "Run",
     "TestNG.Topic_05_XPath_Tech.executor": "Run",
+    "TestNG.Topic_05_XPath_Tech_02.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/sourceDoc/testng-7.10.2-sources.jar",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.28735632",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Topic_05_XPath_Tech">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver\sourceDoc" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="webdriver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Topic_05_XPath_Tech_02">
     <configuration name="Topic_00_Template" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
@@ -74,6 +107,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
       <option name="MAIN_CLASS_NAME" value="webdriver.Topic_05_XPath_Tech" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_05_XPath_Tech_02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_05_XPath_Tech_02" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -119,6 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_05_XPath_Tech_02" />
         <item itemvalue="TestNG.Topic_05_XPath_Tech" />
         <item itemvalue="TestNG.Topic_05_XPath_Tech.TC_03_XPath_With_AXES" />
         <item itemvalue="TestNG.Topic_05_XPath_Tech.TC_02_XPath_With_Position" />
@@ -151,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729135641535</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Topic 05">
+      <option name="closed" value="true" />
+      <created>1729244479574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729244479574</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
