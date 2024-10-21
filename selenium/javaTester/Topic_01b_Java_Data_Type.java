@@ -1,4 +1,4 @@
-package webdriver;
+package javaTester;
 
 public class Topic_01b_Java_Data_Type {
     int amount;
