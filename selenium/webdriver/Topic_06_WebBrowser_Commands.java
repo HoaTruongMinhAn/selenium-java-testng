@@ -103,7 +103,7 @@ public class Topic_06_WebBrowser_Commands {
 
         //Handle window, tab
         String currentWindowID = driver.getWindowHandle();
-        driver.switchTo().window(driver.switchTo().alert();
+        driver.switchTo().window(currentWindowID);
 
 
         //Handle frame, iframe
