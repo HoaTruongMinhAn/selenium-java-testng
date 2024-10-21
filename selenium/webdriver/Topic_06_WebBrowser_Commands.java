@@ -12,6 +12,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import javax.swing.text.Position;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 
 public class Topic_06_WebBrowser_Commands {
@@ -26,7 +28,7 @@ public class Topic_06_WebBrowser_Commands {
 
 
     @Test
-    public void TC_01_() {
+    public void TC_01_() throws MalformedURLException {
         driver.get("https://automationfc.github.io/basic-form/");
 
         System.out.println("--------------driver property");
@@ -82,6 +84,38 @@ public class Topic_06_WebBrowser_Commands {
         driver.manage().window().setPosition(new Point(100,200));
         System.out.println("Driver getPosition: " + driver.manage().window().getPosition());
         Assert.assertEquals(driver.manage().window().getPosition(),new Point(100,200));
+
+
+        //Navigate
+        driver.navigate().back();
+        driver.navigate().forward();
+        driver.navigate().refresh();
+        //Often use to work with browser history
+        driver.navigate().to("https://automationfc.github.io/jquery-tooltip/");
+        driver.navigate().to(new URL("https://automationfc.github.io/jquery-tooltip/"));
+
+        //Alert, window (tab), frame (iframe)
+        driver.switchTo().alert();
+        driver.switchTo().alert().accept();
+        driver.switchTo().alert().dismiss();
+        driver.switchTo().alert().sendKeys("test");
+        driver.switchTo().alert().getText();
+
+        //Handle window, tab
+        String currentWindowID = driver.getWindowHandle();
+        driver.switchTo().window(driver.switchTo().alert();
+
+
+        //Handle frame, iframe
+        driver.switchTo().frame(1);
+        driver.switchTo().frame("123456");
+        driver.switchTo().frame(driver.findElement(By.id("")));
+
+        //Switch to the previous frame
+        driver.switchTo().defaultContent();
+
+        //Switch to the previous frame
+        driver.switchTo().parentFrame();
 
     }
 
