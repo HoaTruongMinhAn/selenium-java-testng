@@ -1,10 +1,7 @@
 package webdriver;
 
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -57,7 +54,37 @@ public class Topic_07_WebElement_Commands {
         System.out.println("getLocation: " + under18RadioButton.getLocation());
         System.out.println("getRect: " + under18RadioButton.getRect());
         System.out.println("getSize: " + under18RadioButton.getSize());
-        System.out.println("getAccessibleName: " + under18RadioButton.getAccessibleName());
+        System.out.println("getDomAttribute: " + under18RadioButton.getDomAttribute("autofocus"));
+        System.out.println("getDomProperty: " + under18RadioButton.getDomProperty("autofocus"));
+
+
+
+
+        //tab Element
+        under18RadioButton.getAttribute("class");
+
+        //tab Element > Style
+        under18RadioButton.getCssValue("font-family");
+
+        //tab Element > Accessibility
+        under18RadioButton.getAccessibleName();
+
+        //tab Element > Properties
+        under18RadioButton.getDomAttribute("class");
+        under18RadioButton.getDomProperty("class");
+
+        //Shadow element (javascript executor)
+        //under18RadioButton.getShadowRoot();
+
+        //Screenshot
+        under18RadioButton.getScreenshotAs(OutputType.BASE64);
+        under18RadioButton.getScreenshotAs(OutputType.FILE);
+        under18RadioButton.getScreenshotAs(OutputType.BYTES);
+
+        //Submit form
+        //under18RadioButton.submit();
+
+
 
         Assert.assertEquals(under18RadioButton.getText(),"Under 18");
         Assert.assertEquals(under18RadioButton.getDomAttribute("class"),"light");

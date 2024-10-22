@@ -2,21 +2,17 @@ package webdriver;
 
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.devtools.v85.systeminfo.model.Size;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.logging.LogType;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import javax.swing.text.Position;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class Topic_06_WebBrowser_Commands {
+public class Topic_06_WebBrowser_Commands_01 {
     WebDriver driver;
 
     @BeforeClass
