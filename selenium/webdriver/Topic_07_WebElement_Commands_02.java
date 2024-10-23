@@ -2,6 +2,7 @@ package webdriver;
 
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -22,7 +23,7 @@ public class Topic_07_WebElement_Commands_02 {
         driver.manage().window().maximize();
     }
 
-
+    //Exercise link: https://docs.google.com/document/d/1G0QsiVDI5KfhNGKxE6a03bhn6KpvgDh69BTx2ttCO94/edit?tab=t.0#heading=h.phyjeo40g0dl
 
     @Test
     public void TC_01_Displayed() throws InterruptedException {

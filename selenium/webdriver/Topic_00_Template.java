@@ -18,8 +18,10 @@ public class Topic_00_Template {
     public void beforeClass() {
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().window().maximize();
     }
 
+    //Exercise link:
 
     @Test
     public void TC_01_() {

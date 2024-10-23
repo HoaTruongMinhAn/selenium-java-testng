@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
-public class Topic_07_WebElement_Commands {
+public class Topic_07_WebElement_Commands_01 {
     WebDriver driver;
 
     String projectPath = System.getProperty("user.dir");
@@ -25,6 +25,7 @@ public class Topic_07_WebElement_Commands {
         driver.manage().window().maximize();
     }
 
+    //Exercise link:
 
     @Test
     public void TC_01_Element() {

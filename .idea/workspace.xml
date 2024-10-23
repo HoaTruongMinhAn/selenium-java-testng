@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_06_WebBrowser_Commands">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_07_WebBrowser_Commands_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_07_WebElement_Commands_02.java" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_07_WebBrowser_Commands_02&#10;Topic_07_WebElement_Commands_02">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_06_Random_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_07_WebElement_Commands_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_08_Textbox_Textarea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Default_Dropdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_06_WebBrowser_Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_06_WebBrowser_Commands_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_07_WebElement_Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_07_WebElement_Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_07_WebBrowser_Commands_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_07_WebBrowser_Commands_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_07_WebElement_Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_07_WebElement_Commands_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_07_WebElement_Commands_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_07_WebElement_Commands_02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +42,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -50,6 +55,9 @@
     "TestNG.Topic_05_XPath_Tech.TC_03_XPath_With_AXES.executor": "Run",
     "TestNG.Topic_05_XPath_Tech.executor": "Run",
     "TestNG.Topic_05_XPath_Tech_02.executor": "Run",
+    "TestNG.Topic_06_Random_String.TC_02_Random_Using_Timestamp.executor": "Run",
+    "TestNG.Topic_06_Random_String.TC_03_Random_Using_UUID.executor": "Run",
+    "TestNG.Topic_06_Random_String.executor": "Run",
     "TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor": "Run",
     "TestNG.Topic_06_WebBrowser_Commands.executor": "Run",
     "TestNG.Topic_06_WebBrowser_Commands_02.TC_02_2222222222.executor": "Run",
@@ -61,6 +69,13 @@
     "TestNG.Topic_07_WebElement_Commands_02.TC_02_Enabled.executor": "Run",
     "TestNG.Topic_07_WebElement_Commands_02.TC_03_Selected.executor": "Run",
     "TestNG.Topic_07_WebElement_Commands_02.TC_04_MailChimp.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_03.Login_01_Empty_Email_And_Password.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_03.Login_02_Invalid_Email.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_03.Login_03_Password_Less_Than_6.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_03.Login_04_Invalid_Email_And_Password.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_03.executor": "Run",
+    "TestNG.Topic_08_Textbox_Textarea.Login_01_Empty_Email_And_Password.executor": "Run",
+    "TestNG.Topic_10_Textbox_Textarea.TC_01_.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/sourceDoc/testng-7.10.2-sources.jar",
@@ -81,18 +96,35 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_07_WebElement_Commands_02.TC_04_MailChimp">
-    <configuration name="Topic_07_WebBrowser_Commands_02.TC_04_Page_Source" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_06_Random_String">
+    <configuration name="Topic_06_Random_String" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="javaTester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_07_WebBrowser_Commands_02" />
-      <option name="METHOD_NAME" value="TC_04_Page_Source" />
+      <option name="PACKAGE_NAME" value="javaTester" />
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_06_Random_String" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_06_Random_String.TC_02_Random_Using_Timestamp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javaTester" />
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_06_Random_String" />
+      <option name="METHOD_NAME" value="TC_02_Random_Using_Timestamp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,7 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_07_WebElement_Commands_02.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_06_Random_String.TC_03_Random_Using_UUID" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javaTester" />
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_06_Random_String" />
+      <option name="METHOD_NAME" value="TC_03_Random_Using_UUID" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_07_WebElement_Commands_03" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
@@ -109,62 +159,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_07_WebElement_Commands_02" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_07_WebElement_Commands_03" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_08_Textbox_Textarea.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_08_Textbox_Textarea" />
       <option name="METHOD_NAME" value="TC_01_" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_07_WebElement_Commands_02.TC_02_Enabled" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_07_WebElement_Commands_02" />
-      <option name="METHOD_NAME" value="TC_02_Enabled" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_07_WebElement_Commands_02.TC_03_Selected" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_07_WebElement_Commands_02" />
-      <option name="METHOD_NAME" value="TC_03_Selected" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_07_WebElement_Commands_02.TC_04_MailChimp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_07_WebElement_Commands_02" />
-      <option name="METHOD_NAME" value="TC_04_MailChimp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_07_WebElement_Commands_02.TC_04_MailChimp" />
-        <item itemvalue="TestNG.Topic_07_WebElement_Commands_02.TC_03_Selected" />
-        <item itemvalue="TestNG.Topic_07_WebElement_Commands_02.TC_02_Enabled" />
-        <item itemvalue="TestNG.Topic_07_WebElement_Commands_02.TC_01_" />
-        <item itemvalue="TestNG.Topic_07_WebBrowser_Commands_02.TC_04_Page_Source" />
+        <item itemvalue="TestNG.Topic_06_Random_String" />
+        <item itemvalue="TestNG.Topic_06_Random_String.TC_03_Random_Using_UUID" />
+        <item itemvalue="TestNG.Topic_06_Random_String.TC_02_Random_Using_Timestamp" />
+        <item itemvalue="TestNG.Topic_08_Textbox_Textarea.TC_01_" />
+        <item itemvalue="TestNG.Topic_07_WebElement_Commands_03" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729504256840</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Topic_07_WebBrowser_Commands_02&#10;Topic_07_WebElement_Commands_02">
+      <option name="closed" value="true" />
+      <created>1729589154773</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729589154773</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,6 +260,15 @@
     <MESSAGE value="Topic 05" />
     <MESSAGE value="Attach Selenium document&#10;Topic 05 part 2" />
     <MESSAGE value="Topic_06_WebBrowser_Commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_06_WebBrowser_Commands" />
+    <MESSAGE value="Topic_07_WebBrowser_Commands_02&#10;Topic_07_WebElement_Commands_02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_07_WebBrowser_Commands_02&#10;Topic_07_WebElement_Commands_02" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="email" language="JAVA" />
+        <watch expression="driver" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

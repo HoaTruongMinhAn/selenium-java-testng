@@ -20,7 +20,7 @@ public class Topic_07_WebBrowser_Commands_02 {
         driver.manage().window().maximize();
     }
 
-
+    //Exercise link: https://docs.google.com/document/d/1G0QsiVDI5KfhNGKxE6a03bhn6KpvgDh69BTx2ttCO94/edit?tab=t.0#heading=h.y83yxtzfkk64
 
     @Test
     public void TC_01_Page_URL() throws InterruptedException {
