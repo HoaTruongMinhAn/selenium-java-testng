@@ -9,7 +9,7 @@ import java.util.UUID;
 public class Topic_06_Random_String {
     @Test
     public void TC_01_Random_Using_Number(){
-        //Random method 1, works well
+        //Random using number
         Random rand = new Random();
         int randomNumber = rand.nextInt(999999);
         String firstName = "testFN" + randomNumber;
@@ -26,7 +26,7 @@ public class Topic_06_Random_String {
 
     @Test
     public void TC_02_Random_Using_Timestamp(){
-        //Random method 2, works well
+        //Random using timestamp
         long currentTime = new Timestamp(System.currentTimeMillis()).getTime();
 
         String firstName = "testFN" + currentTime;
@@ -43,7 +43,7 @@ public class Topic_06_Random_String {
 
     @Test
     public void TC_03_Random_Using_UUID(){
-        //Random method 3, works well
+        //Random using UUID
         UUID uuid = UUID.randomUUID();
 
         String firstName = "testFN" + uuid;
