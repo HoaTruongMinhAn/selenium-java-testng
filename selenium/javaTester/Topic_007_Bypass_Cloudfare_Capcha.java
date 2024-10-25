@@ -5,12 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-import java.sql.Timestamp;
 import java.time.Duration;
-import java.util.Random;
-import java.util.UUID;
 
-public class Topic_07_Bypass_Cloudfare_Capcha {
+public class Topic_007_Bypass_Cloudfare_Capcha {
     @Test
     public void TC_01_Bypass_Cloudfare_Capcha(){
         // Set pre-saved cookies after manually completing Cloudflare validation

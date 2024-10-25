@@ -1,6 +1,6 @@
 package javaTester;
 
-public class Topic_01b_Java_Data_Type {
+public class Topic_001b_Java_Data_Type {
     int amount;
 
     //test ssss
@@ -37,10 +37,10 @@ public class Topic_01b_Java_Data_Type {
         System.out.println("testNum2: " + testNum2);
 
         //part 3
-        Topic_01b_Java_Data_Type t1 = new Topic_01b_Java_Data_Type();
+        Topic_001b_Java_Data_Type t1 = new Topic_001b_Java_Data_Type();
         t1.amount = 20;
 
-        Topic_01b_Java_Data_Type t2 = new Topic_01b_Java_Data_Type();
+        Topic_001b_Java_Data_Type t2 = new Topic_001b_Java_Data_Type();
 
         System.out.println("-------------part 3");
         System.out.println("t1: " + t1.amount);

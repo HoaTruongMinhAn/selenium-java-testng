@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Topic_05_Assert {
+public class Topic_005_Assert {
     WebDriver driver;
 
     @BeforeClass

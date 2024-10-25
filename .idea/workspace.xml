@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_09_Default_Dropdown">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Default_Dropdown_02.java" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_09_Default_Dropdown_02">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_006_Wait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_007_If_Else.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_008_Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_009_List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Default_Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Default_Dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_01b_Java_Data_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_001b_Java_Data_Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_05_Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_005_Assert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_06_Random_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_006_Random_String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_07_Bypass_Cloudfare_Capcha.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_007_Bypass_Cloudfare_Capcha.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +65,11 @@
     "TestNG.Topic_06_WebBrowser_Commands_02.TC_04_Page_Source.executor": "Run",
     "TestNG.Topic_06_WebBrowser_Commands_02.executor": "Run",
     "TestNG.Topic_07_Bypass_Cloudfare_Capcha.TC_01_Random_Using_Number.executor": "Run",
+    "TestNG.Topic_07_If_Else.executor": "Run",
+    "TestNG.Topic_07_Loop.TC_02_For_Each.executor": "Run",
+    "TestNG.Topic_07_Loop.TC_03_Do_While.executor": "Run",
+    "TestNG.Topic_07_Loop.TC_03_While.executor": "Run",
+    "TestNG.Topic_07_Loop.executor": "Run",
     "TestNG.Topic_07_WebElement_Commands.TC_01_Element.executor": "Run",
     "TestNG.Topic_07_WebElement_Commands_02.TC_01_.executor": "Run",
     "TestNG.Topic_07_WebElement_Commands_02.TC_02_Enabled.executor": "Run",
@@ -73,6 +84,10 @@
     "TestNG.Topic_09_Default_Dropdown.executor": "Run",
     "TestNG.Topic_09_Default_Dropdown_02.TC_01_Rode.executor": "Run",
     "TestNG.Topic_09_Default_Dropdown_02.executor": "Run",
+    "TestNG.Topic_09_List.TC_01_For.executor": "Run",
+    "TestNG.Topic_09_List.TC_01_List_Print_All.executor": "Run",
+    "TestNG.Topic_09_List.TC_02_List_Print_With_Condition.executor": "Run",
+    "TestNG.Topic_09_List.executor": "Run",
     "TestNG.Topic_10_Textbox_Textarea.TC_01_.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -91,12 +106,12 @@
       <recent name="javaTester" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="webdriver" />
       <recent name="javaTester" />
+      <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_09_Default_Dropdown">
-    <configuration name="Topic_06_Random_String" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Topic_008_Loop.TC_03_Do_While" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
@@ -105,25 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="javaTester" />
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_06_Random_String" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_07_Bypass_Cloudfare_Capcha.TC_01_Random_Using_Number" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaTester.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javaTester" />
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_07_Bypass_Cloudfare_Capcha" />
-      <option name="METHOD_NAME" value="TC_01_Random_Using_Number" />
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_008_Loop" />
+      <option name="METHOD_NAME" value="TC_03_Do_While" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,16 +129,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_09_Default_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_009_List" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="javaTester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_09_Default_Dropdown" />
+      <option name="PACKAGE_NAME" value="javaTester" />
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_009_List" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -148,34 +146,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_09_Default_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_009_List.TC_01_For" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="javaTester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_09_Default_Dropdown" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="javaTester" />
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_009_List" />
+      <option name="METHOD_NAME" value="TC_01_For" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_09_Default_Dropdown_02.TC_01_Rode" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_009_List.TC_01_List_Print_All" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="javaTester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_09_Default_Dropdown_02" />
-      <option name="METHOD_NAME" value="TC_01_Rode" />
+      <option name="PACKAGE_NAME" value="javaTester" />
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_009_List" />
+      <option name="METHOD_NAME" value="TC_01_List_Print_All" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_009_List.TC_02_List_Print_With_Condition" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javaTester" />
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_009_List" />
+      <option name="METHOD_NAME" value="TC_02_List_Print_With_Condition" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -185,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_09_Default_Dropdown" />
-        <item itemvalue="TestNG.Topic_09_Default_Dropdown_02.TC_01_Rode" />
-        <item itemvalue="TestNG.Topic_09_Default_Dropdown_02" />
-        <item itemvalue="TestNG.Topic_07_Bypass_Cloudfare_Capcha.TC_01_Random_Using_Number" />
-        <item itemvalue="TestNG.Topic_06_Random_String" />
+        <item itemvalue="TestNG.Topic_009_List" />
+        <item itemvalue="TestNG.Topic_009_List.TC_02_List_Print_With_Condition" />
+        <item itemvalue="TestNG.Topic_009_List.TC_01_List_Print_All" />
+        <item itemvalue="TestNG.Topic_009_List.TC_01_For" />
+        <item itemvalue="TestNG.Topic_008_Loop.TC_03_Do_While" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729810294659</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Topic_09_Default_Dropdown_02">
+      <option name="closed" value="true" />
+      <created>1729816505659</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729816505659</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -284,9 +309,9 @@
     <MESSAGE value="Topic_06_WebBrowser_Commands" />
     <MESSAGE value="Topic_07_WebBrowser_Commands_02&#10;Topic_07_WebElement_Commands_02" />
     <MESSAGE value="Topic_08_Textbox_Textarea&#10;Topic_09_Default_Dropdown" />
-    <MESSAGE value="Topic_09_Default_Dropdown_02" />
     <MESSAGE value="Topic_09_Default_Dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_09_Default_Dropdown" />
+    <MESSAGE value="Topic_09_Default_Dropdown_02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_09_Default_Dropdown_02" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

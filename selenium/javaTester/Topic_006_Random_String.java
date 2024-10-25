@@ -6,7 +6,7 @@ import java.sql.Timestamp;
 import java.util.Random;
 import java.util.UUID;
 
-public class Topic_06_Random_String {
+public class Topic_006_Random_String {
     @Test
     public void TC_01_Random_Using_Number(){
         //Random using number
