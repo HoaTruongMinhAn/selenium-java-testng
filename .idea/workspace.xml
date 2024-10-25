@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_09_Default_Dropdown_02">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_006_Wait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_007_If_Else.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_008_Loop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_009_List.java" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_006_Wait">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_01b_Java_Data_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_001b_Java_Data_Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_05_Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_005_Assert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_06_Random_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_006_Random_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_07_Bypass_Cloudfare_Capcha.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_007_Bypass_Cloudfare_Capcha.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729816505659</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Topic_006_Wait">
+      <option name="closed" value="true" />
+      <created>1729829157905</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729829157905</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -311,7 +311,8 @@
     <MESSAGE value="Topic_08_Textbox_Textarea&#10;Topic_09_Default_Dropdown" />
     <MESSAGE value="Topic_09_Default_Dropdown" />
     <MESSAGE value="Topic_09_Default_Dropdown_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_09_Default_Dropdown_02" />
+    <MESSAGE value="Topic_006_Wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_006_Wait" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
