@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_09_Default_Dropdown_02">
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_09_Default_Dropdown">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Default_Dropdown_02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Default_Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Default_Dropdown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,48 +40,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.Topic_00_Template.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_XPath_Tech.TC_02_XPath_With_Position.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_XPath_Tech.TC_03_XPath_With_AXES.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_XPath_Tech.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_XPath_Tech_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_Random_String.TC_02_Random_Using_Timestamp.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_Random_String.TC_03_Random_Using_UUID.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_Random_String.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands_02.TC_02_2222222222.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands_02.TC_03_Page_Navigation.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands_02.TC_04_Page_Source.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_Bypass_Cloudfare_Capcha.TC_01_Random_Using_Number.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands.TC_01_Element.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_02_Enabled.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_03_Selected.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_04_MailChimp.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_01_Empty_Email_And_Password.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_02_Invalid_Email.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_03_Password_Less_Than_6.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_04_Invalid_Email_And_Password.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_03.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_08_Textbox_Textarea.Login_01_Empty_Email_And_Password.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_Default_Dropdown.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_Default_Dropdown_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_10_Textbox_Textarea.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/sourceDoc/testng-7.10.2-sources.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.28735632&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Topic_00_Template.executor": "Run",
+    "TestNG.Topic_05_XPath_Tech.TC_02_XPath_With_Position.executor": "Run",
+    "TestNG.Topic_05_XPath_Tech.TC_03_XPath_With_AXES.executor": "Run",
+    "TestNG.Topic_05_XPath_Tech.executor": "Run",
+    "TestNG.Topic_05_XPath_Tech_02.executor": "Run",
+    "TestNG.Topic_06_Random_String.TC_02_Random_Using_Timestamp.executor": "Run",
+    "TestNG.Topic_06_Random_String.TC_03_Random_Using_UUID.executor": "Run",
+    "TestNG.Topic_06_Random_String.executor": "Run",
+    "TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor": "Run",
+    "TestNG.Topic_06_WebBrowser_Commands.executor": "Run",
+    "TestNG.Topic_06_WebBrowser_Commands_02.TC_02_2222222222.executor": "Run",
+    "TestNG.Topic_06_WebBrowser_Commands_02.TC_03_Page_Navigation.executor": "Run",
+    "TestNG.Topic_06_WebBrowser_Commands_02.TC_04_Page_Source.executor": "Run",
+    "TestNG.Topic_06_WebBrowser_Commands_02.executor": "Run",
+    "TestNG.Topic_07_Bypass_Cloudfare_Capcha.TC_01_Random_Using_Number.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands.TC_01_Element.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_02.TC_01_.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_02.TC_02_Enabled.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_02.TC_03_Selected.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_02.TC_04_MailChimp.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_03.Login_01_Empty_Email_And_Password.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_03.Login_02_Invalid_Email.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_03.Login_03_Password_Less_Than_6.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_03.Login_04_Invalid_Email_And_Password.executor": "Run",
+    "TestNG.Topic_07_WebElement_Commands_03.executor": "Run",
+    "TestNG.Topic_08_Textbox_Textarea.Login_01_Empty_Email_And_Password.executor": "Run",
+    "TestNG.Topic_09_Default_Dropdown.executor": "Run",
+    "TestNG.Topic_09_Default_Dropdown_02.TC_01_Rode.executor": "Run",
+    "TestNG.Topic_09_Default_Dropdown_02.executor": "Run",
+    "TestNG.Topic_10_Textbox_Textarea.TC_01_.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/sourceDoc/testng-7.10.2-sources.jar",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.28735632",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver\sourceDoc" />
@@ -88,11 +91,11 @@
       <recent name="javaTester" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="javaTester" />
       <recent name="webdriver" />
+      <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_09_Default_Dropdown_02">
+  <component name="RunManager" selected="TestNG.Topic_09_Default_Dropdown">
     <configuration name="Topic_06_Random_String" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
@@ -104,24 +107,6 @@
       <option name="PACKAGE_NAME" value="javaTester" />
       <option name="MAIN_CLASS_NAME" value="javaTester.Topic_06_Random_String" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_06_Random_String.TC_03_Random_Using_UUID" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaTester.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javaTester" />
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_06_Random_String" />
-      <option name="METHOD_NAME" value="TC_03_Random_Using_UUID" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -180,13 +165,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_09_Default_Dropdown_02.TC_01_Rode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_09_Default_Dropdown_02" />
+      <option name="METHOD_NAME" value="TC_01_Rode" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_09_Default_Dropdown" />
+        <item itemvalue="TestNG.Topic_09_Default_Dropdown_02.TC_01_Rode" />
         <item itemvalue="TestNG.Topic_09_Default_Dropdown_02" />
         <item itemvalue="TestNG.Topic_07_Bypass_Cloudfare_Capcha.TC_01_Random_Using_Number" />
-        <item itemvalue="TestNG.Topic_09_Default_Dropdown" />
         <item itemvalue="TestNG.Topic_06_Random_String" />
-        <item itemvalue="TestNG.Topic_06_Random_String.TC_03_Random_Using_UUID" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729763151031</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Topic_09_Default_Dropdown">
+      <option name="closed" value="true" />
+      <created>1729810294659</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729810294659</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -274,7 +285,8 @@
     <MESSAGE value="Topic_07_WebBrowser_Commands_02&#10;Topic_07_WebElement_Commands_02" />
     <MESSAGE value="Topic_08_Textbox_Textarea&#10;Topic_09_Default_Dropdown" />
     <MESSAGE value="Topic_09_Default_Dropdown_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_09_Default_Dropdown_02" />
+    <MESSAGE value="Topic_09_Default_Dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_09_Default_Dropdown" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -24,7 +24,7 @@ public class Topic_09_Default_Dropdown {
 
     @BeforeClass
     public void beforeClass() {
-        Cookie cloudflareCookie = new Cookie("cf_clearance", "HMxyz9ukaddnBgmVs5eDg3RNFdCMCw6eSMu9D1HqzbM-1729760948-1.2.1.1-Bv4.Xsed3GjCsXffvMAdG6iIp3PcdtwXj5WgRAUTBQhXOsGNuXP.XoqA6Jz0w2TLcMCLvZtAIA.XFS_vNXtVJt8tYMga2KezbKxBpJQ8wTTL15uJtfOqhT4nK4FBnSy3vdT.cPlvw3sjKYAswV9f_Z1E0Mn6WEqlImUTrpj3xWFOcZFdhjsHXmBtiib43EAsQP4pFbLJ0hcJ5cWhl7EjIG62VQB6ec9_dbsCp4.oNbfQ155X0U3Yp8Gjdx6EijyrZiJOHTY0qmoTdlxF.Uu2_tvP08NzfQnpKSgk4rdI0Z5XpKAAJpoxEmXTjMk5vjzuP32zC0sL6z8e9HDHEAGoycFc5gxeazH.mN.JeTAcKBbHIHUnjfVtLZqOqzzFAmUHhQJYOfEQhiWMGGCZXZ6XkQ");
+        Cookie cloudflareCookie = new Cookie("cf_clearance", "RUpMI8a1HjAlWreZpxr2Xy1gCxSitnJf7VwGmpi46cc-1729816432-1.2.1.1-enqhijqpurZbJ3YK7wbX5Ml89x9b03QnOozTFolI2LXMQkEBhz17uUzS5OlCRl5.HqTPpxuJXrNU9MZf8lf7DdmSkvn4x7Hd_0c0N7i3yKoigeVNxSDBWs6azLmCGpMiPracx3uxlZCzhJUO1Uw6p26yWmjGknUeY4TjbTAW4HkfwZqRa9MQ2bxZsX3IvdpY3JFuBEW1.4uUF9NcQa9bErHNVUhdAK9VVQ5dTCB_Az72OY37fkP2FrsXxYGKyYzcEWYXBlvc_pEGFMo1UAyg4GexkTVf6JsvYBlQ9bDJ0W5WERjbeilct_P1vz3MNVAD2tiVitBWtLH4ByY_odEM5iXI6mXpPPSIwBlBH2HvDRTdVYtZUCXK6nMlMrsw.oVfdzN25IXKXg_ilG9iVn2uHA");
 
         driver = new FirefoxDriver();
         driver.get("https://demo.nopcommerce.com/");
@@ -37,8 +37,6 @@ public class Topic_09_Default_Dropdown {
     @Test
     public void TC_01_Register() {
         //Exercise link: https://docs.google.com/document/d/1QRI6jdKoCiMB3K7s16f3jEtAVHICdROpw_t30RD8gac/edit?tab=t.0#heading=h.48we03cvzjbk
-
-
 
         //Step 01 - Truy cập vào trang: https://demo.nopcommerce.com
         driver.get("https://demo.nopcommerce.com/");
@@ -110,7 +108,7 @@ public class Topic_09_Default_Dropdown {
 
     @AfterClass
     public void afterClass() {
-//        driver.quit();
+        driver.quit();
     }
 
     public void sleepInSeconds(long timeInSecond){
@@ -119,12 +117,5 @@ public class Topic_09_Default_Dropdown {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-    }
-
-    public void acceptAlert(){
-        //Handle browser alert: click Continue
-        Alert alert = driver.switchTo().alert();
-        alert.accept();
-        sleepInSeconds(5);
     }
 }
