@@ -108,6 +108,35 @@ public class Topic_13_Button {
         colorValue = Color.fromString(loginButtonColor);
         System.out.println(colorValue);
         Assert.assertEquals(colorValue.asHex().toUpperCase(),"#673AB7");
+    }
+
+    @Test
+    public void TC_03_Huawei() {
+        //Exercise link: https://docs.google.com/document/d/1kPgRirztWIC9R_XiZFNYI3E0KVWfrzf2x_Het5MRj3s/edit?tab=t.0#heading=h.zg8vyw1whenb
+
+        //Step 01 - Truy cập vào trang: https://id5.cloud.huawei.com/CAS/portal/userRegister/regbyemail.html
+        driver.get("https://id5.cloud.huawei.com/CAS/portal/userRegister/regbyemail.html");
+
+        //Step 03 - Verify Register button là disabled
+        By continueButton = By.cssSelector("div[ht='click_register_mailSubmit']>div");
+//        Assert.assertFalse(driver.findElement(continueButton).isEnabled());
+
+        Assert.assertTrue(driver.findElement(continueButton).getAttribute("class").contains("hwid-disabled"));
+
+        //Step 04 - Verify Register button có background color là màu xám
+        //--outlined-button-hover-text-color
+        String loginButtonColor = driver.findElement(continueButton).getCssValue("background-color");
+        Color colorValue = Color.fromString(loginButtonColor);
+        System.out.println(colorValue);
+        Assert.assertEquals(colorValue.asHex().toUpperCase(),"#CA141D");
+
+        //Step 05 - Input dữ liệu hợp lệ vào Email/ Mật khẩu textbox
+        driver.findElement(By.cssSelector("input[ht='input_enter_email']")).sendKeys("aaa@aaa.com");
+        driver.findElement(By.cssSelector("input[ht='input_enter_password1']")).sendKeys("123456");
+        driver.findElement(By.cssSelector("input[ht='input_enter_confirmpassword2']")).sendKeys("Abc12345");
+
+        //Stuck on enter email code
+        driver.findElement(By.cssSelector("input[ht='input_register_EmailCode']")).sendKeys("111111");
 
     }
 
