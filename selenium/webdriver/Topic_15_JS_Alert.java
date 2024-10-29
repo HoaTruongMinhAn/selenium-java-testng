@@ -90,11 +90,33 @@ public class Topic_15_JS_Alert {
         driver.get("https://automationfc.github.io/basic-form/index.html");
         sleepInSeconds(2);
 
+        //Step 02 - Click vào button: Click for JS Prompt
+        driver.findElement(By.xpath("//button[text()='Click for JS Prompt']")).click();
+
+        //Step 03 - Verify message hiển thị trong alert là: I am a JS prompt
+        Alert alert1 = exlicitWait.until(ExpectedConditions.alertIsPresent());
+        Assert.assertEquals(alert1.getText(), "I am a JS prompt");
+        sleepInSeconds(2);
+
+        //Step 04 - Cancel alert và verify message hiển thị tại Result là:  You entered: null
+        alert1.dismiss();
+        WebElement resultLabel = driver.findElement(By.cssSelector("p#result"));
+        Assert.assertEquals(resultLabel.getText(), "You entered: null");
+
+        //Step 05 - Confirm alert và verify message hiển thị tại Result là:  You entered: <text>>
+        driver.findElement(By.xpath("//button[text()='Click for JS Prompt']")).click();
+        alert1 = exlicitWait.until(ExpectedConditions.alertIsPresent());
+        sleepInSeconds(2);
+
+        String promptText = "hello alert";
+        alert1.sendKeys(promptText);
+        alert1.accept();
+        Assert.assertEquals(resultLabel.getText(), "You entered: " + promptText);
 
     }
     @AfterClass
     public void afterClass() {
-        driver.quit();
+//        driver.quit();
     }
 
     public void sleepInSeconds(long timeInSecond){
