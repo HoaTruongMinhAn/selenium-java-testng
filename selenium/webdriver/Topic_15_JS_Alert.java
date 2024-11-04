@@ -17,14 +17,14 @@ import java.time.Duration;
 
 public class Topic_15_JS_Alert {
     WebDriver driver;
-    WebDriverWait exlicitWait;
+    WebDriverWait explicitWait;
 
     @BeforeClass
     public void beforeClass() {
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.manage().window().maximize();
-        exlicitWait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        explicitWait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class Topic_15_JS_Alert {
 //        Alert alert1 = driver.switchTo().alert();
 
         //Method 2: use wait
-        Alert alert1 = exlicitWait.until(ExpectedConditions.alertIsPresent());
+        Alert alert1 = explicitWait.until(ExpectedConditions.alertIsPresent());
 
         //Step 03 - Verify message hiển thị trong alert là: I am a JS Alert
 
@@ -66,7 +66,7 @@ public class Topic_15_JS_Alert {
         driver.findElement(By.xpath("//button[text()='Click for JS Confirm']")).click();
 
         //Step 03 - Verify message hiển thị trong alert là: I am a JS Confirm
-        Alert alert1 = exlicitWait.until(ExpectedConditions.alertIsPresent());
+        Alert alert1 = explicitWait.until(ExpectedConditions.alertIsPresent());
         Assert.assertEquals(alert1.getText(), "I am a JS Confirm");
         sleepInSeconds(2);
 
@@ -77,7 +77,7 @@ public class Topic_15_JS_Alert {
 
         //Step 05 - Confirm alert và verify message hiển thị tại Result là:  You clicked: Cancel
         driver.findElement(By.xpath("//button[text()='Click for JS Confirm']")).click();
-        alert1 = exlicitWait.until(ExpectedConditions.alertIsPresent());
+        alert1 = explicitWait.until(ExpectedConditions.alertIsPresent());
         sleepInSeconds(2);
         alert1.accept();
         Assert.assertEquals(resultLabel.getText(), "You clicked: Ok");
@@ -94,7 +94,7 @@ public class Topic_15_JS_Alert {
         driver.findElement(By.xpath("//button[text()='Click for JS Prompt']")).click();
 
         //Step 03 - Verify message hiển thị trong alert là: I am a JS prompt
-        Alert alert1 = exlicitWait.until(ExpectedConditions.alertIsPresent());
+        Alert alert1 = explicitWait.until(ExpectedConditions.alertIsPresent());
         Assert.assertEquals(alert1.getText(), "I am a JS prompt");
         sleepInSeconds(2);
 
@@ -105,7 +105,7 @@ public class Topic_15_JS_Alert {
 
         //Step 05 - Confirm alert và verify message hiển thị tại Result là:  You entered: <text>>
         driver.findElement(By.xpath("//button[text()='Click for JS Prompt']")).click();
-        alert1 = exlicitWait.until(ExpectedConditions.alertIsPresent());
+        alert1 = explicitWait.until(ExpectedConditions.alertIsPresent());
         sleepInSeconds(2);
 
         String promptText = "hello alert";

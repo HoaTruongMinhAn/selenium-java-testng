@@ -4,6 +4,7 @@ package webdriver;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -38,6 +39,8 @@ public class Topic_18_Action_II {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.manage().window().maximize();
         actions = new Actions(driver);
+
+        explicitWait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
     @Test
@@ -144,6 +147,47 @@ public class Topic_18_Action_II {
 
         //Step 03 - Verify text trong được hiển thị bên dưới: Hello Automation Guys!
         Assert.assertEquals(driver.findElement(By.cssSelector("p#demo")).getText(), "Hello Automation Guys!");
+    }
+
+
+    @Test
+    public void TC_05_Right_Click() {
+        //Exercise link: https://docs.google.com/document/d/15MqNX4HLiR29Vn2XhFhugTb2AJpAT16tiEGHzQ0GeFo/edit?tab=t.0#heading=h.6cezh15niei
+        //Step 01 - Truy cập vào trang: http://swisnl.github.io/jQuery-contextMenu/demo.html
+        driver.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");
+        sleepInSeconds(2);
+
+
+        //Step 02 - Right click vào element: right click me
+        WebElement rightClickMeButton = driver.findElement(By.xpath("//span[text()='right click me']"));
+        actions.contextClick(rightClickMeButton).perform();
+        sleepInSeconds(2);
+
+        //Step 03 - Kiểm tra Quit menu hiển thị
+        WebElement quitMenu = driver.findElement(By.cssSelector("ul.context-menu-list>li.context-menu-icon-quit"));
+        Assert.assertTrue(quitMenu.isDisplayed());
+
+        //Step 04 - Hover chuột vào element: Quit
+        actions.moveToElement(quitMenu).perform();
+        sleepInSeconds(2);
+
+        //Step 05 - Verify element Quit (visible + hover) với xpath:
+//        Đây là giá trị ở trong attribute class - ko phải là đang nói đến visible của Selenium
+//        Giá trị visible + hover chỉ được hiển thị khi mình hover chuột vào
+        Assert.assertTrue(quitMenu.getAttribute("class").contains("context-menu-hover"));
+        Assert.assertTrue(quitMenu.getAttribute("class").contains("context-menu-visible"));
+
+        //Step 06 - Click chọn Quit
+        actions.click(quitMenu).perform();
+        sleepInSeconds(2);
+        Alert alert1 = explicitWait.until(ExpectedConditions.alertIsPresent());
+        alert1.accept();
+        sleepInSeconds(2);
+//        driver.switchTo().defaultContent();
+
+        //Step 07 - Kiểm tra Quit menu không còn hiển thị
+        Assert.assertFalse(quitMenu.getAttribute("class").contains("context-menu-hover"));
+        Assert.assertFalse(quitMenu.getAttribute("class").contains("context-menu-visible"));
     }
 
     @AfterClass

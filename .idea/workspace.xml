@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_006_Wait">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libraries.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_15_JS_Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_15_JS_Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_18_Action_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_18_Action_II.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +84,11 @@
     "TestNG.Topic_09_List.TC_02_List_Print_With_Condition.executor": "Run",
     "TestNG.Topic_09_List.executor": "Run",
     "TestNG.Topic_10_Textbox_Textarea.TC_01_.executor": "Run",
+    "TestNG.Topic_18_Action_II.TC_05_Right_Click.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/sourceDoc/testng-7.10.2-sources.jar",
-    "project.structure.last.edited": "SDKs",
+    "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/libraries/selenium-devtools-v129-4.25.0.jar",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.28735632",
     "settings.editor.selected.configurable": "inlay.hints"
@@ -102,25 +106,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Topic_008_Loop.TC_03_Do_While" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaTester.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javaTester" />
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_008_Loop" />
-      <option name="METHOD_NAME" value="TC_03_Do_While" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_18_Action_II.TC_05_Right_Click">
     <configuration name="Topic_009_List" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
@@ -192,13 +178,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_18_Action_II.TC_05_Right_Click" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_18_Action_II" />
+      <option name="METHOD_NAME" value="TC_05_Right_Click" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_18_Action_II.TC_05_Right_Click" />
         <item itemvalue="TestNG.Topic_009_List" />
         <item itemvalue="TestNG.Topic_009_List.TC_02_List_Print_With_Condition" />
         <item itemvalue="TestNG.Topic_009_List.TC_01_List_Print_All" />
         <item itemvalue="TestNG.Topic_009_List.TC_01_For" />
-        <item itemvalue="TestNG.Topic_008_Loop.TC_03_Do_While" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729829157905</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Topic_006_Wait">
+      <option name="closed" value="true" />
+      <created>1729843054868</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729843054871</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
