@@ -2,8 +2,6 @@ package webdriver;
 
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -21,10 +19,9 @@ public class Topic_00_Template {
         driver.manage().window().maximize();
     }
 
-    //Exercise link:
-
     @Test
     public void TC_01_() {
+        //Exercise link:
         driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 
     }
