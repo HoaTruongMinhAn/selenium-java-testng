@@ -77,7 +77,64 @@ public class Topic_21_Fixed_Popup {
     }
 
     //Bai 3,4
+    @Test
+    public void TC_03_Fixed_Popup_Tiki() {
+        //Exercise link: https://docs.google.com/document/d/1IZn3_cDV95SRT7RuEl8NWjxw4IPmjwMpd38-HmXfgYM/edit?tab=t.0#heading=h.9gt2iojgdsjv
+        //Step 01 - Truy cập vào trang: https://tiki.vn/
+        driver.get("https://tiki.vn/");
+        sleepInSeconds(2);
 
+        //Step 02 - Click Đăng Nhập/ Đăng Kí
+        driver.findElement(By.cssSelector("img[alt='close-icon']")).click();
+        driver.findElement(By.xpath("//span[text()='Tài khoản']")).click();
+        sleepInSeconds(2);
+
+        //Step 03 - Verify Login popup hiển thị
+        Assert.assertTrue(driver.findElement(By.cssSelector("div[role='dialog']")).isDisplayed());
+
+        //Step 04 - Click 'Đăng nhập bằng email' link
+        driver.findElement(By.cssSelector("p.login-with-email")).click();
+        sleepInSeconds(2);
+
+        //Step 05 - Không nhập dữ liệu và click Đăng nhập
+        driver.findElement(By.xpath("//button[text()='Đăng nhập']")).click();
+        sleepInSeconds(2);
+
+        //Step 06 - Verify text hiển thị
+        Assert.assertEquals(driver.findElement(By.xpath("//span[@class='error-mess'][1]")).getText(),"Email không được để trống");
+        Assert.assertEquals(driver.findElement(By.xpath("//span[@class='error-mess'][2]")).getText(),"Mật khẩu không được để trống");
+
+        //Step 07 - Click để close popup đi
+        driver.findElement(By.cssSelector("img.close-img")).click();
+        sleepInSeconds(2);
+
+        //Step 08 - Verify popup không còn hiển thị (findElements)
+        List<WebElement> popups = driver.findElements(By.cssSelector("div[role='dialog']"));
+        Assert.assertEquals(popups.size(), 0);
+    }
+
+    @Test
+    public void TC_04_Fixed_Popup_Facebook() {
+        //Exercise link: https://docs.google.com/document/d/1IZn3_cDV95SRT7RuEl8NWjxw4IPmjwMpd38-HmXfgYM/edit?tab=t.0#heading=h.fn8wfqfr6j9u
+        //Step 01 - Truy cập vào trang: https://www.facebook.com/
+        driver.get("https://www.facebook.com/");
+        sleepInSeconds(2);
+
+        //Step 02 - Click Create New Account button
+        driver.findElement(By.cssSelector("a[data-testid='open-registration-form-button']")).click();
+        sleepInSeconds(2);
+
+        //Step 03 - Verify Register popup hiển thị
+        Assert.assertTrue(driver.findElement(By.cssSelector("div._52lo")).isDisplayed());
+
+        //Step 04 - Click Close popup đi
+        driver.findElement(By.cssSelector("a[aria-label='Already have an account?']")).click();
+        sleepInSeconds(2);
+
+        //Step 05 - Verify Register popup không còn hiển thị
+        List<WebElement> popups = driver.findElements(By.cssSelector("div._52lo"));
+        Assert.assertEquals(popups.size(), 0);
+    }
 
     @AfterClass
     public void afterClass() {
