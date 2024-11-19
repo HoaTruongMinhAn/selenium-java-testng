@@ -40,6 +40,9 @@ public class Topic_22_Random_Popup {
             System.out.println("----------RUN THE IF------------");
             driver.findElement(By.cssSelector("a[onclick*='lepopup_close()']")).click();
             sleepInSeconds(2);
+
+            //Verify pop-up not display
+            Assert.assertFalse(popups.get(0).isDisplayed());
         }
 
         //Step 03 - Nhập dữ liệu vào Search textbox với từ khóa Agile Testing Explained
@@ -63,22 +66,57 @@ public class Topic_22_Random_Popup {
         //Không xuất hiện - chuyển qua step 03 (Element của popup vẫn còn trong DOM)
         List<WebElement> popups = driver.findElements(By.cssSelector("div.pum-container"));
 
-        if(popups.size()>0 && popups.get(0).isDisplayed()){
+        if (popups.size() > 0 && popups.get(0).isDisplayed()) {
             System.out.println("----------RUN THE IF------------");
             driver.findElement(By.cssSelector("button.pum-close")).click();
             sleepInSeconds(2);
+
+            //Verify pop-up not display
+            Assert.assertFalse(popups.get(0).isDisplayed());
         }
 
         //Step 03: Action
         driver.findElement(By.xpath("//a[@class='mega-menu-link' and text()='Liên hệ']")).click();
         sleepInSeconds(5);
-        Assert.assertTrue(driver.findElement(By.cssSelector("span#Co_so_3")).isDisplayed());
-        Assert.assertTrue(driver.findElement(By.cssSelector("span#Co_so_3")).isDisplayed());
+
+        Assert.assertEquals(driver.getCurrentUrl(), "https://vnk.edu.vn/lien-he/");
+        Assert.assertTrue(driver.findElement(By.xpath("//h1[text()='Liên hệ']")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//h2[text()='Trụ sở chính']")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//h2[text()='Cơ sở 2']")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//h2[text()='Cơ sở 3']")).isDisplayed());
     }
+
+    @Test
+    public void TC_03_Dehieu() {
+        //Exercise link: https://docs.google.com/document/d/1IZn3_cDV95SRT7RuEl8NWjxw4IPmjwMpd38-HmXfgYM/edit?tab=t.0#heading=h.pnb3nqkdgfux
+        //Step 01 - Truy cập vào trang: https://dehieu.vn/
+        driver.get("https://dehieu.vn/");
+        sleepInSeconds(2);
+
+
+        //Step 02 - Kiểm tra popup trong 2 trường hợp
+        //Có xuất hiện - đóng popup đi - chuyển qua step 03
+        //Không xuất hiện - chuyển qua step 03 (Element của popup không còn trong DOM)
+        List<WebElement> popups = driver.findElements(By.cssSelector("div.modal-content"));
+        if(popups.size() > 0 && popups.get(0).isDisplayed()) {
+            System.out.println("----------RUN THE IF------------");
+            driver.findElement(By.cssSelector("div.modal-content button.close")).click();
+            sleepInSeconds(2);
+
+            //Verify pop-up not display
+            Assert.assertFalse(popups.get(0).isDisplayed());
+        }
+
+        //Step 03: Action
+        driver.findElement(By.xpath("//strong[text()='KHÓA HỌC NHIỀU NGƯỜI MUA NHẤT']/ancestor::div[@class='section-featured-products mx-auto slick-resize container']//a[@href='/courses']")).click();
+        sleepInSeconds(2);
+        Assert.assertTrue(driver.findElement(By.xpath("//a[text()='Tất cả khóa học']")).isDisplayed());
+    }
+
 
     @AfterClass
     public void afterClass() {
-//        driver.quit();
+        driver.quit();
     }
 
     public void sleepInSeconds(long timeInSecond) {
