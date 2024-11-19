@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_20_Frame_iFrame">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Random_Popup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_20_Frame_iFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_20_Frame_iFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +92,9 @@
     "TestNG.Topic_20_Frame_iFrame.TC_01_iFrame_Toidicodedao.executor": "Run",
     "TestNG.Topic_20_Frame_iFrame.TC_03_Frame.executor": "Run",
     "TestNG.Topic_20_Frame_iFrame.executor": "Run",
+    "TestNG.Topic_22_Random_Popup.TC_01_.executor": "Run",
+    "TestNG.Topic_22_Random_Popup.TC_01_Javacodegeeks.executor": "Run",
+    "TestNG.Topic_22_Random_Popup.TC_02_VNK.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/libraries/selenium-devtools-v129-4.25.0.jar",
@@ -113,60 +116,7 @@
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_20_Frame_iFrame.TC_03_Frame">
-    <configuration name="Topic_19_Action_III.TC_05_Scroll_To_element" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_19_Action_III" />
-      <option name="METHOD_NAME" value="TC_05_Scroll_To_element" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_20_Frame_iFrame" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_20_Frame_iFrame" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_20_Frame_iFrame.TC_01_iFrame_FormSite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_20_Frame_iFrame" />
-      <option name="METHOD_NAME" value="TC_01_iFrame_FormSite" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_22_Random_Popup.TC_02_VNK">
     <configuration name="Topic_20_Frame_iFrame.TC_01_iFrame_Toidicodedao" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
@@ -203,13 +153,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_22_Random_Popup.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Random_Popup" />
+      <option name="METHOD_NAME" value="TC_01_" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_22_Random_Popup.TC_01_Javacodegeeks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Random_Popup" />
+      <option name="METHOD_NAME" value="TC_01_Javacodegeeks" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_22_Random_Popup.TC_02_VNK" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Random_Popup" />
+      <option name="METHOD_NAME" value="TC_02_VNK" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_02_VNK" />
+        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_01_Javacodegeeks" />
+        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_01_" />
         <item itemvalue="TestNG.Topic_20_Frame_iFrame.TC_03_Frame" />
         <item itemvalue="TestNG.Topic_20_Frame_iFrame.TC_01_iFrame_Toidicodedao" />
-        <item itemvalue="TestNG.Topic_20_Frame_iFrame.TC_01_iFrame_FormSite" />
-        <item itemvalue="TestNG.Topic_20_Frame_iFrame" />
-        <item itemvalue="TestNG.Topic_19_Action_III.TC_05_Scroll_To_element" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731318651771</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Topic_20_Frame_iFrame">
+      <option name="closed" value="true" />
+      <created>1731382102842</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731382102842</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
