@@ -73,7 +73,6 @@ public class Topic_23_Window_Tab {
 
         //Step 10 - Close tất cả cửa sổ/ tab ngoại trừ parent window
         closeTabExcept(parentWindowID);
-//        switchtoWindowByTitle("Selenium WebDriver");
 
         //Step 11 - Kiểm tra đã quay về parent window thành công (title/ url)
         Assert.assertEquals(driver.getTitle(), "Selenium WebDriver");
@@ -177,8 +176,6 @@ public class Topic_23_Window_Tab {
         driver.get("https://courses.dce.harvard.edu/");
         sleepInSeconds(2);
         String parentWindowID = driver.getWindowHandle();
-
-//        driver.switchTo().newWindow(WindowType.WINDOW).get("https://live.techpanda.org/index.php/customer/account/login/");
 
         //Step 02 - Click vào Student Login
         driver.findElement(By.xpath("//a[@data-action='login']")).click();

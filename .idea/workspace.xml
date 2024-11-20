@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_22_Random_Popup">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_23_Window_Tab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_23_Window_Tab">
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_23_Window_Tab.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_23_Window_Tab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732010381606</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Topic_23_Window_Tab">
+      <option name="closed" value="true" />
+      <created>1732096045997</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732096045997</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -385,7 +391,8 @@
     <MESSAGE value="Topic_19_Action_III" />
     <MESSAGE value="Topic_20_Frame_iFrame" />
     <MESSAGE value="Topic_22_Random_Popup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_22_Random_Popup" />
+    <MESSAGE value="Topic_23_Window_Tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_23_Window_Tab" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
