@@ -22,7 +22,7 @@ public class Topic_00_Template {
     @Test
     public void TC_01_() {
         //Exercise link:
-        driver.get("https://alada.vn/tai-khoan/dang-ky.html");
+        driver.get("");
 
     }
 

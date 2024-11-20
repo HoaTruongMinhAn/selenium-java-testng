@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_20_Frame_iFrame">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Random_Popup.java" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_22_Random_Popup">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_23_Window_Tab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +96,11 @@
     "TestNG.Topic_22_Random_Popup.TC_01_.executor": "Run",
     "TestNG.Topic_22_Random_Popup.TC_01_Javacodegeeks.executor": "Run",
     "TestNG.Topic_22_Random_Popup.TC_02_VNK.executor": "Run",
+    "TestNG.Topic_23_Window_Tab.TC_01_Github.executor": "Run",
+    "TestNG.Topic_23_Window_Tab.TC_02_Live_TechPanda.executor": "Run",
+    "TestNG.Topic_23_Window_Tab.TC_03_Cambridge.executor": "Run",
+    "TestNG.Topic_23_Window_Tab.TC_04_Selenium_4x.executor": "Run",
+    "TestNG.Topic_23_Window_Tab.TC_05_Selenium_4x_Live_Techpanda.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/libraries/selenium-devtools-v129-4.25.0.jar",
@@ -116,8 +122,8 @@
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_22_Random_Popup.TC_02_VNK">
-    <configuration name="Topic_20_Frame_iFrame.TC_01_iFrame_Toidicodedao" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_23_Window_Tab.TC_05_Selenium_4x_Live_Techpanda">
+    <configuration name="Topic_23_Window_Tab.TC_01_Github" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +132,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_20_Frame_iFrame" />
-      <option name="METHOD_NAME" value="TC_01_iFrame_Toidicodedao" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_23_Window_Tab" />
+      <option name="METHOD_NAME" value="TC_01_Github" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_20_Frame_iFrame.TC_03_Frame" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_23_Window_Tab.TC_02_Live_TechPanda" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +150,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_20_Frame_iFrame" />
-      <option name="METHOD_NAME" value="TC_03_Frame" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_23_Window_Tab" />
+      <option name="METHOD_NAME" value="TC_02_Live_TechPanda" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,7 +159,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_22_Random_Popup.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_23_Window_Tab.TC_03_Cambridge" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
@@ -162,8 +168,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Random_Popup" />
-      <option name="METHOD_NAME" value="TC_01_" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_23_Window_Tab" />
+      <option name="METHOD_NAME" value="TC_03_Cambridge" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,7 +177,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_22_Random_Popup.TC_01_Javacodegeeks" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_23_Window_Tab.TC_04_Selenium_4x" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
@@ -180,8 +186,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Random_Popup" />
-      <option name="METHOD_NAME" value="TC_01_Javacodegeeks" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_23_Window_Tab" />
+      <option name="METHOD_NAME" value="TC_04_Selenium_4x" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -189,7 +195,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_22_Random_Popup.TC_02_VNK" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_23_Window_Tab.TC_05_Selenium_4x_Live_Techpanda" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
@@ -198,8 +204,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Random_Popup" />
-      <option name="METHOD_NAME" value="TC_02_VNK" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_23_Window_Tab" />
+      <option name="METHOD_NAME" value="TC_05_Selenium_4x_Live_Techpanda" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -209,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_02_VNK" />
-        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_01_Javacodegeeks" />
-        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_01_" />
-        <item itemvalue="TestNG.Topic_20_Frame_iFrame.TC_03_Frame" />
-        <item itemvalue="TestNG.Topic_20_Frame_iFrame.TC_01_iFrame_Toidicodedao" />
+        <item itemvalue="TestNG.Topic_23_Window_Tab.TC_05_Selenium_4x_Live_Techpanda" />
+        <item itemvalue="TestNG.Topic_23_Window_Tab.TC_04_Selenium_4x" />
+        <item itemvalue="TestNG.Topic_23_Window_Tab.TC_03_Cambridge" />
+        <item itemvalue="TestNG.Topic_23_Window_Tab.TC_02_Live_TechPanda" />
+        <item itemvalue="TestNG.Topic_23_Window_Tab.TC_01_Github" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731382102842</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Topic_22_Random_Popup">
+      <option name="closed" value="true" />
+      <created>1732010381606</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732010381606</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -370,7 +384,8 @@
     <MESSAGE value="Topic_18_Action_II" />
     <MESSAGE value="Topic_19_Action_III" />
     <MESSAGE value="Topic_20_Frame_iFrame" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_20_Frame_iFrame" />
+    <MESSAGE value="Topic_22_Random_Popup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_22_Random_Popup" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
