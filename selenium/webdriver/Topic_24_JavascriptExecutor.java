@@ -53,7 +53,7 @@ public class Topic_24_JavascriptExecutor {
     }
 
     @Test
-    public void TC_01_Live_TechPanda() {
+    public void TC_01_Live_TechPanda_Direct_Script() {
         //Exercise link:
         jsExecutor.executeScript("window.location='https://live.techpanda.org/';");
 
@@ -99,7 +99,15 @@ public class Topic_24_JavascriptExecutor {
 
     }
 
-    @AfterClass
+    @Test
+    public void TC_01_Live_TechPanda_Call_Function() {
+        //Exercise link:
+        jsExecutor.executeScript("window.location='https://live.techpanda.org/';");
+
+        explicitWait.until(ExpectedConditions.urlToBe("https://live.techpanda.org/"));
+    }
+
+        @AfterClass
     public void afterClass() {
 //        driver.quit();
     }
@@ -111,4 +119,8 @@ public class Topic_24_JavascriptExecutor {
             throw new RuntimeException(e);
         }
     }
+
+
+
+
 }
