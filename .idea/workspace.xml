@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_24b_JavascriptExecutor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_24b_JavascriptExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_24b_JavascriptExecutor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +103,7 @@
     "TestNG.Topic_24_JavascriptExecutor.TC_01_Live_TechPanda.executor": "Run",
     "TestNG.Topic_24_JavascriptExecutor.TC_01_Practice_Javascript.executor": "Run",
     "TestNG.Topic_24b_JavascriptExecutor.TC_01_Live_TechPanda_Call_Function.executor": "Run",
+    "TestNG.Topic_24b_JavascriptExecutor.TC_03_Rode.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/libraries/selenium-devtools-v129-4.25.0.jar",
@@ -123,25 +125,7 @@
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_24b_JavascriptExecutor.TC_01_Live_TechPanda_Call_Function">
-    <configuration name="Topic_23_Window_Tab.TC_04_Selenium_4x" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_23_Window_Tab" />
-      <option name="METHOD_NAME" value="TC_04_Selenium_4x" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_24b_JavascriptExecutor.TC_03_Rode">
     <configuration name="Topic_23_Window_Tab.TC_05_Selenium_4x_Live_Techpanda" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
@@ -214,13 +198,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_24b_JavascriptExecutor.TC_03_Rode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_24b_JavascriptExecutor" />
+      <option name="METHOD_NAME" value="TC_03_Rode" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_24b_JavascriptExecutor.TC_03_Rode" />
         <item itemvalue="TestNG.Topic_24b_JavascriptExecutor.TC_01_Live_TechPanda_Call_Function" />
         <item itemvalue="TestNG.Topic_24_JavascriptExecutor.TC_01_Live_TechPanda" />
         <item itemvalue="TestNG.Topic_24_JavascriptExecutor.TC_01_Practice_Javascript" />
         <item itemvalue="TestNG.Topic_23_Window_Tab.TC_05_Selenium_4x_Live_Techpanda" />
-        <item itemvalue="TestNG.Topic_23_Window_Tab.TC_04_Selenium_4x" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732182622172</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Topic_24b_JavascriptExecutor">
+      <option name="closed" value="true" />
+      <created>1732182926131</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1732182926131</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -22,7 +22,7 @@ public class Topic_24b_JavascriptExecutor {
 
     @BeforeClass
     public void beforeClass() {
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.manage().window().maximize();
         jsExecutor = (JavascriptExecutor) driver;
@@ -59,9 +59,94 @@ public class Topic_24b_JavascriptExecutor {
         scrollToElementOnDown("//input[@id='newsletter']");
         setAttributeInDOM("//input[@id='newsletter']", "value", "aaaa@aaa.com");
 
-        //xxx
+        //Subcribe
+        clickToElementByJS("//span[text()='Subscribe']");
+        sleepInSeconds(2);
+        driver.switchTo().alert().accept();
+        sleepInSeconds(10);
+        driver.switchTo().defaultContent();
+
+        //Verify text
+        Assert.assertTrue(getInnerText().contains("Thank you for your subscription."));
     }
 
+    @Test
+    public void TC_03_Rode() {
+        //Exercise link:
+        //
+        driver.get("https://warranty.rode.com/login");
+        sleepInSeconds(2);
+
+        //Empty email
+        WebElement loginButton = driver.findElement(By.xpath("//button[text()=' Log in ']"));
+        loginButton.click();
+        sleepInSeconds(2);
+
+        String emailLocator = "//input[@id='email']";
+        String passwordLocator = "//input[@id='password']";
+        String emailMessage = getElementValidationMessage(emailLocator);
+        Assert.assertEquals(emailMessage, "Please fill out this field.");
+
+        //Invalid email 1
+        String invalidEmail = "aaa";
+        WebElement emailTextbox = driver.findElement(By.xpath(emailLocator));
+        emailTextbox.sendKeys(invalidEmail);
+
+        loginButton.click();
+        sleepInSeconds(2);
+
+        String driverName = driver.toString();
+        emailMessage = getElementValidationMessage(emailLocator);
+
+        if (driverName.contains("Chrome")) {
+            Assert.assertEquals(emailMessage, "Please include an '@' in the email address. '" + invalidEmail + "' is missing an '@'.");
+        } else {
+            Assert.assertEquals(emailMessage, "Please enter an email address.");
+        }
+
+        //Invalid email 2
+        String invalidEmail2 = "aaa@";
+        emailTextbox.clear();
+        emailTextbox.sendKeys(invalidEmail2);
+        loginButton.click();
+        sleepInSeconds(2);
+
+        emailMessage = getElementValidationMessage(emailLocator);
+
+        if (driverName.contains("Chrome")) {
+            Assert.assertEquals(emailMessage, "Please enter a part following '@'. '" + invalidEmail2 + "' is incomplete.");
+        } else {
+            Assert.assertEquals(emailMessage, "Please enter an email address.");
+        }
+
+        //Invalid email 3
+        String invalidEmail3 = "aaa@aaa.";
+        emailTextbox.clear();
+        emailTextbox.sendKeys(invalidEmail3);
+        loginButton.click();
+        sleepInSeconds(2);
+
+        emailMessage = getElementValidationMessage(emailLocator);
+
+        if (driverName.contains("Chrome")) {
+            Assert.assertEquals(emailMessage, "'.' is used at a wrong position in '" + invalidEmail3.split("@")[1] +"'.");
+        } else {
+            Assert.assertEquals(emailMessage, "Please enter an email address.");
+        }
+
+        //Valid email
+        String validEmail = "aaa@aaa.aaa";
+        emailTextbox.clear();
+        emailTextbox.sendKeys(validEmail);
+        loginButton.click();
+        sleepInSeconds(2);
+
+        emailMessage = getElementValidationMessage(emailLocator);
+        String passwordMessage = getElementValidationMessage(passwordLocator);
+
+        Assert.assertEquals(emailMessage, "");
+        Assert.assertEquals(passwordMessage, "Please fill out this field.");
+    }
 
     @AfterClass
     public void afterClass() {
