@@ -22,7 +22,7 @@ public class Topic_25_Upload {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.manage().window().maximize();
 
-        uploadFolderPath = System.getProperty("user.dir") + File.separator + "uploadFiles" + File.separator;
+        uploadFolderPath = System.getProperty("user.dir") + File.separator + "selenium-webdriver-java-testng" + File.separator + "uploadFiles" + File.separator;
         image1 = "111.png";
         image2 = "222.png";
         image3 = "333.png";
