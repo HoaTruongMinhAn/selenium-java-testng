@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Topic_007_Bypass_Cloudfare_Capcha {
+public class Topic_010_Bypass_Cloudfare_Capcha {
     @Test
     public void TC_01_Bypass_Cloudfare_Capcha(){
         // Set pre-saved cookies after manually completing Cloudflare validation
