@@ -45,8 +45,6 @@ public class Topic_34_Wait_Page_Ready {
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='Password']"))).clear();
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='Password']"))).sendKeys("admin");
         explicitWait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(@class,'login-button')]"))).click();
-//        driver.findElement(By.xpath("//input[@id='Email']")).sendKeys("admin@yourstore.com");
-//        driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("admin");
 
         //Step 03 - Wait cho page được load success - có thể dùng 2 cách
         //1 - Wait cho page load complete/ page ready
@@ -81,8 +79,6 @@ public class Topic_34_Wait_Page_Ready {
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='Password']"))).clear();
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='Password']"))).sendKeys("admin");
         explicitWait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(@class,'login-button')]"))).click();
-//        driver.findElement(By.xpath("//input[@id='Email']")).sendKeys("admin@yourstore.com");
-//        driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("admin");
 
         //Step 03 - Wait cho page được load success - có thể dùng 2 cách
         //1 - Wait cho page load complete/ page ready
