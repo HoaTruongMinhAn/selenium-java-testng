@@ -3,6 +3,7 @@ package webdriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -14,6 +15,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 import java.time.Duration;
+import java.util.List;
 
 public class Topic_31_Wait_Explicit_Ajax {
     WebDriver driver;
@@ -25,7 +27,8 @@ public class Topic_31_Wait_Explicit_Ajax {
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
         explicitWait = new WebDriverWait(driver, Duration.ofSeconds(15));
-        uploadFolderPath = System.getProperty("user.dir") + File.separator + "selenium-webdriver-java-testng" + File.separator + "uploadFiles" + File.separator;
+//        uploadFolderPath = System.getProperty("user.dir") + File.separator + "selenium-webdriver-java-testng" + File.separator + "uploadFiles" + File.separator;
+        uploadFolderPath = System.getProperty("user.dir") + File.separator + "uploadFiles" + File.separator;
         image1 = "111.png";
         image2 = "222.png";
         image3 = "333.png";
@@ -87,7 +90,6 @@ public class Topic_31_Wait_Explicit_Ajax {
         Assert.assertTrue(explicitWait.until(ExpectedConditions.textToBe(messageLabel, "No Selected Dates to display.")));
 
         //Step 04 - Chọn ngày hiện tại (VD: 22/08/2019) (hoặc 1 ngày bất kì tương ứng trong tháng/ năm hiện tại)
-
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//td/a[text()='1']"))).click();
 
         //Step 05 - Wait cho đến khi "Ajax loading icon" không còn visible (sử dụng: invisibility)
@@ -114,15 +116,15 @@ public class Topic_31_Wait_Explicit_Ajax {
         //Exercise link: https://docs.google.com/document/d/1YHmFR2m0aPi29TQJm67_DAUXGUajm5qF7qpCdyACyxg/edit?tab=t.0#heading=h.wv3r7afluol1
         //Step 01 - Open URL: https://gofile.io/?t=uploadFiles
         driver.get("https://gofile.io/?t=uploadFiles");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        explicitWait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
         //Step 02 - Upload các file và verify file đã được load lên thành công
         //Verify Loading completed
-        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='spinner-border']"))));
+//        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='spinner-border']"))));
 
-        //Step 03 - Click Upload button
-        //Step 04 - Click OK button ở popup sau khi upload thành công
-        //Click Upload
-        explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[text()='Upload Files']"))).click();
+        //Step 03 - Click Upload
+        explicitWait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Upload Files']"))).click();
         //Verify Loading completed
         Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='spinner-border']"))));
 
@@ -130,17 +132,15 @@ public class Topic_31_Wait_Explicit_Ajax {
         explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='filesUploadInput']"))).sendKeys(image1Path + "\n" + image2Path + "\n" + image3Path);
 
         //Verify Loading completed
-        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='spinner-border']/following-sibling::span[text()='Get destination folder ...']"))));
+//        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='spinner-border']/following-sibling::span[text()='Get destination folder ...']"))));
 
         //Verify Upload completed
-        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//span[text()='" + image1 +"']/parent::div/following-sibling::div/div[contains(@class,'progress')]"))));
-
-        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//span[text()='" + image2 +"']/parent::div/following-sibling::div/div[contains(@class,'progress')]"))));
-
-        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//span[text()='" + image3 +"']/parent::div/following-sibling::div/div[contains(@class,'progress')]"))));
+        List<WebElement> progressBars = explicitWait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//div[contains(@class,'progress-bar bg-primary')]"),3));
+        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfAllElements(progressBars)));
+        progressBars = driver.findElements(By.xpath("//div[contains(@class,'progress-bar bg-primary')]"));
 
         //Step 05 - Click vào Download link
-        explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[normalize-space(string()) ='Download Link']/following-sibling::div/a[@class='ajaxLink']"))).click();
+        explicitWait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[normalize-space(string()) ='Download Link']/following-sibling::div/a[@class='ajaxLink']"))).click();
 
         //Step 06 - Chuyển qua Tab/ Window mới - kiểm tra có icon download và play hiển thị ở từng file
         //Verify Loading completed

@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_24b_JavascriptExecutor">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_003_Path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_25_Upload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadFiles/111.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadFiles/222.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadFiles/333.png" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_25_Upload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_31_Wait_Explicit_Ajax.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_31_Wait_Explicit_Ajax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadFiles/111.png" beforeDir="false" afterPath="$PROJECT_DIR$/uploadFiles/111.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadFiles/222.png" beforeDir="false" afterPath="$PROJECT_DIR$/uploadFiles/222.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadFiles/333.png" beforeDir="false" afterPath="$PROJECT_DIR$/uploadFiles/333.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +111,8 @@
     "TestNG.Topic_25_Upload.TC_01_Single_File.executor": "Run",
     "TestNG.Topic_25_Upload.TC_02_Multiple_File.executor": "Run",
     "TestNG.Topic_25_Upload.executor": "Run",
+    "TestNG.Topic_31_Wait_Explicit_Ajax.TC_03_GoFile.executor": "Debug",
+    "TestNG.Topic_31_Wait_Explicit_Ajax.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/uploadFile",
@@ -134,38 +135,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_25_Upload">
-    <configuration name="Topic_003_Path" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_003_Path" />
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaTester.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_24b_JavascriptExecutor.TC_03_Rode" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_24b_JavascriptExecutor" />
-      <option name="METHOD_NAME" value="TC_03_Rode" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_31_Wait_Explicit_Ajax">
     <configuration name="Topic_25_Upload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
@@ -219,13 +189,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_31_Wait_Explicit_Ajax" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_31_Wait_Explicit_Ajax" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_31_Wait_Explicit_Ajax.TC_03_GoFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_31_Wait_Explicit_Ajax" />
+      <option name="METHOD_NAME" value="TC_03_GoFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_31_Wait_Explicit_Ajax" />
+        <item itemvalue="TestNG.Topic_31_Wait_Explicit_Ajax.TC_03_GoFile" />
         <item itemvalue="TestNG.Topic_25_Upload" />
         <item itemvalue="TestNG.Topic_25_Upload.TC_02_Multiple_File" />
         <item itemvalue="TestNG.Topic_25_Upload.TC_01_Single_File" />
-        <item itemvalue="Application.Topic_003_Path" />
-        <item itemvalue="TestNG.Topic_24b_JavascriptExecutor.TC_03_Rode" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732231774328</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Topic_25_Upload">
+      <option name="closed" value="true" />
+      <created>1732240088082</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1732240088082</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,7 +474,8 @@
     <MESSAGE value="Topic_23_Window_Tab" />
     <MESSAGE value="Topic_24_JavascriptExecutor" />
     <MESSAGE value="Topic_24b_JavascriptExecutor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_24b_JavascriptExecutor" />
+    <MESSAGE value="Topic_25_Upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_25_Upload" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
