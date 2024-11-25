@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_25_Upload">
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_31_Wait_Explicit_Ajax">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_33_Wait_Fluent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_34_Wait_Page_Ready.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_31_Wait_Explicit_Ajax.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_31_Wait_Explicit_Ajax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadFiles/111.png" beforeDir="false" afterPath="$PROJECT_DIR$/uploadFiles/111.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadFiles/222.png" beforeDir="false" afterPath="$PROJECT_DIR$/uploadFiles/222.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadFiles/333.png" beforeDir="false" afterPath="$PROJECT_DIR$/uploadFiles/333.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +111,13 @@
     "TestNG.Topic_25_Upload.executor": "Run",
     "TestNG.Topic_31_Wait_Explicit_Ajax.TC_03_GoFile.executor": "Debug",
     "TestNG.Topic_31_Wait_Explicit_Ajax.executor": "Run",
+    "TestNG.Topic_33_Wait_Fluent.TC_01_.executor": "Run",
+    "TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading.executor": "Run",
+    "TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_01.executor": "Run",
+    "TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_02.executor": "Run",
+    "TestNG.Topic_33_Wait_Fluent.TC_02_CountDown.executor": "Run",
+    "TestNG.Topic_34_Wait_Page_Ready.TC_01_.executor": "Run",
+    "TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/uploadFile",
@@ -131,12 +136,12 @@
       <recent name="javaTester" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="javaTester" />
       <recent name="webdriver" />
+      <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_31_Wait_Explicit_Ajax">
-    <configuration name="Topic_25_Upload" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02">
+    <configuration name="Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
@@ -145,25 +150,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Upload" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_25_Upload.TC_01_Single_File" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Upload" />
-      <option name="METHOD_NAME" value="TC_01_Single_File" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_33_Wait_Fluent" />
+      <option name="METHOD_NAME" value="TC_01_Dynamic_Loading_01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,7 +159,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_25_Upload.TC_02_Multiple_File" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
@@ -180,8 +168,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Upload" />
-      <option name="METHOD_NAME" value="TC_02_Multiple_File" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_33_Wait_Fluent" />
+      <option name="METHOD_NAME" value="TC_01_Dynamic_Loading_02" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -189,7 +177,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_31_Wait_Explicit_Ajax" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_33_Wait_Fluent.TC_02_CountDown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
@@ -198,15 +186,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_31_Wait_Explicit_Ajax" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_33_Wait_Fluent" />
+      <option name="METHOD_NAME" value="TC_02_CountDown" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_31_Wait_Explicit_Ajax.TC_03_GoFile" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_34_Wait_Page_Ready.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
@@ -215,8 +204,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_31_Wait_Explicit_Ajax" />
-      <option name="METHOD_NAME" value="TC_03_GoFile" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_34_Wait_Page_Ready" />
+      <option name="METHOD_NAME" value="TC_01_" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_34_Wait_Page_Ready" />
+      <option name="METHOD_NAME" value="TC_01_Page_Ready_02" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -226,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_31_Wait_Explicit_Ajax" />
-        <item itemvalue="TestNG.Topic_31_Wait_Explicit_Ajax.TC_03_GoFile" />
-        <item itemvalue="TestNG.Topic_25_Upload" />
-        <item itemvalue="TestNG.Topic_25_Upload.TC_02_Multiple_File" />
-        <item itemvalue="TestNG.Topic_25_Upload.TC_01_Single_File" />
+        <item itemvalue="TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02" />
+        <item itemvalue="TestNG.Topic_34_Wait_Page_Ready.TC_01_" />
+        <item itemvalue="TestNG.Topic_33_Wait_Fluent.TC_02_CountDown" />
+        <item itemvalue="TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_02" />
+        <item itemvalue="TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_01" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732240088082</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Topic_31_Wait_Explicit_Ajax">
+      <option name="closed" value="true" />
+      <created>1732508324521</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1732508324521</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -475,7 +490,8 @@
     <MESSAGE value="Topic_24_JavascriptExecutor" />
     <MESSAGE value="Topic_24b_JavascriptExecutor" />
     <MESSAGE value="Topic_25_Upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_25_Upload" />
+    <MESSAGE value="Topic_31_Wait_Explicit_Ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_31_Wait_Explicit_Ajax" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
