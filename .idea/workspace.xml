@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_31_Wait_Explicit_Ajax">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_33_Wait_Fluent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_34_Wait_Page_Ready.java" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_34_Wait_Page_Ready">
+      <change afterPath="$PROJECT_DIR$/RunTest_01_Basic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTest_02_Package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTest_03_Package_Group.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/payment/Payment_01_CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/product/Product_01_CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_01_Annotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_02_Assert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_03_Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_04_Always_Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_05_Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_06_Skip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_07_Description.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +58,15 @@
     "Application.Topic_003_Path.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest.xml.executor": "Run",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_02.xml.executor": "Run",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_02_Package.xml.executor": "Run",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_03_Group.xml.executor": "Run",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_03_Package_Group.xml.executor": "Run",
     "TestNG.Topic_00_Template.executor": "Run",
+    "TestNG.Topic_01_Annotation.executor": "Run",
+    "TestNG.Topic_04_Always_Run.executor": "Run",
+    "TestNG.Topic_05_Priority.executor": "Run",
     "TestNG.Topic_05_XPath_Tech.TC_02_XPath_With_Position.executor": "Run",
     "TestNG.Topic_05_XPath_Tech.TC_03_XPath_With_AXES.executor": "Run",
     "TestNG.Topic_05_XPath_Tech.executor": "Run",
@@ -56,6 +74,7 @@
     "TestNG.Topic_06_Random_String.TC_02_Random_Using_Timestamp.executor": "Run",
     "TestNG.Topic_06_Random_String.TC_03_Random_Using_UUID.executor": "Run",
     "TestNG.Topic_06_Random_String.executor": "Run",
+    "TestNG.Topic_06_Skip.executor": "Run",
     "TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor": "Run",
     "TestNG.Topic_06_WebBrowser_Commands.executor": "Run",
     "TestNG.Topic_06_WebBrowser_Commands_02.TC_02_2222222222.executor": "Run",
@@ -120,7 +139,7 @@
     "TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/uploadFile",
+    "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.28735632",
@@ -129,6 +148,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver" />
       <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver\uploadFile" />
       <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver\sourceDoc" />
     </key>
@@ -136,95 +156,86 @@
       <recent name="javaTester" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testng" />
+      <recent name="product" />
+      <recent name="payment" />
       <recent name="webdriver" />
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02">
-    <configuration name="Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_01" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_07_Description">
+    <configuration name="C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_03_Package_Group.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_33_Wait_Fluent" />
-      <option name="METHOD_NAME" value="TC_01_Dynamic_Loading_01" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest_03_Package_Group.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_04_Always_Run" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_33_Wait_Fluent" />
-      <option name="METHOD_NAME" value="TC_01_Dynamic_Loading_02" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_04_Always_Run" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_33_Wait_Fluent.TC_02_CountDown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_05_Priority" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_33_Wait_Fluent" />
-      <option name="METHOD_NAME" value="TC_02_CountDown" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_05_Priority" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_34_Wait_Page_Ready.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_06_Skip" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_34_Wait_Page_Ready" />
-      <option name="METHOD_NAME" value="TC_01_" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_06_Skip" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_07_Description" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_34_Wait_Page_Ready" />
-      <option name="METHOD_NAME" value="TC_01_Page_Ready_02" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_07_Description" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -233,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02" />
-        <item itemvalue="TestNG.Topic_34_Wait_Page_Ready.TC_01_" />
-        <item itemvalue="TestNG.Topic_33_Wait_Fluent.TC_02_CountDown" />
-        <item itemvalue="TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_02" />
-        <item itemvalue="TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_01" />
+        <item itemvalue="TestNG.Topic_07_Description" />
+        <item itemvalue="TestNG.Topic_06_Skip" />
+        <item itemvalue="TestNG.Topic_05_Priority" />
+        <item itemvalue="TestNG.Topic_04_Always_Run" />
+        <item itemvalue="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_03_Package_Group.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732508324521</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Topic_34_Wait_Page_Ready">
+      <option name="closed" value="true" />
+      <created>1732528536186</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1732528536186</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,7 +510,8 @@
     <MESSAGE value="Topic_24b_JavascriptExecutor" />
     <MESSAGE value="Topic_25_Upload" />
     <MESSAGE value="Topic_31_Wait_Explicit_Ajax" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_31_Wait_Explicit_Ajax" />
+    <MESSAGE value="Topic_34_Wait_Page_Ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_34_Wait_Page_Ready" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
