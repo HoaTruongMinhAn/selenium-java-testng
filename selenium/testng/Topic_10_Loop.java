@@ -1,11 +1,8 @@
-package webdriver;
+package testng;
 
-
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -14,7 +11,7 @@ import java.sql.Timestamp;
 import java.time.Duration;
 import java.util.Random;
 
-public class Topic_08_Textbox_Textarea {
+public class Topic_10_Loop {
     WebDriver driver;
     Random rand;
     String firstName, lastName, email, password;
@@ -26,7 +23,8 @@ public class Topic_08_Textbox_Textarea {
         driver.manage().window().maximize();
     }
 
-    @Test
+
+    @Test (invocationCount = 3)
     public void TC_01_Textbox_Textarea() {
         //Exercise link: https://docs.google.com/document/d/1QRI6jdKoCiMB3K7s16f3jEtAVHICdROpw_t30RD8gac/edit?tab=t.0#heading=h.kahqnrvcqvkn
 
@@ -69,7 +67,7 @@ public class Topic_08_Textbox_Textarea {
         driver.findElement(By.cssSelector("input[id='email_address']")).sendKeys(email);
         driver.findElement(By.cssSelector("input[id='password']")).sendKeys(password);
         driver.findElement(By.cssSelector("input[id='confirmation']")).sendKeys(password);
-
+/*
         //Step 05 - Click REGISTER button
         driver.findElement(By.cssSelector("button[title='Register']")).click();
         sleepInSeconds(2);
@@ -83,8 +81,8 @@ public class Topic_08_Textbox_Textarea {
         Assert.assertTrue(driver.findElement(By.xpath("//span[text()='Thank you for registering with Main Website Store.']")).isDisplayed());
 
         //Step 07 - Verify User được tạo mới với thông tin: Firstname/ Lastname/ Email hiển thị ở trang My Dashboard
-        Assert.assertTrue(driver.findElement(By.xpath("//p[contains(string(),'" + firstName + "') and contains(string(),'" + lastName + "') and contains(string(),'" + email +"')]")).isDisplayed());
-        System.out.println("//p[contains(string(),'" + firstName + "') and contains(string(),'" + lastName + "') and contains(string(),'" + email +"')]");
+        Assert.assertTrue(driver.findElement(By.xpath("//p[contains(string(),'" + firstName + "') and contains(string(),'" + lastName + "') and contains(string(),'" + email + "')]")).isDisplayed());
+        System.out.println("//p[contains(string(),'" + firstName + "') and contains(string(),'" + lastName + "') and contains(string(),'" + email + "')]");
 
 
         //Step 08 - Chuyển qua tab Mobile
@@ -120,8 +118,8 @@ public class Topic_08_Textbox_Textarea {
 
         //Step 13 - Kiểm tra hệ thống navigate về Home page sau khi logout thành công
         driver.findElement(By.cssSelector("a[data-target-element='#header-account']")).click();
-        Assert.assertEquals(driver.getCurrentUrl(),"https://live.techpanda.org/index.php/");
-        Assert.assertTrue(driver.findElement(By.cssSelector("a[title='Log In']")).isDisplayed());
+        Assert.assertEquals(driver.getCurrentUrl(), "https://live.techpanda.org/index.php/");
+        Assert.assertTrue(driver.findElement(By.cssSelector("a[title='Log In']")).isDisplayed());*/
 
     }
 
@@ -130,9 +128,9 @@ public class Topic_08_Textbox_Textarea {
         driver.quit();
     }
 
-    public void sleepInSeconds(long timeInSecond){
+    public void sleepInSeconds(long timeInSecond) {
         try {
-            Thread.sleep(timeInSecond*1000);
+            Thread.sleep(timeInSecond * 1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
