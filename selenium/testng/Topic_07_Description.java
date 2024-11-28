@@ -8,7 +8,7 @@ public class Topic_07_Description {
         System.out.println("\t\t\tshouldBeCreate");
     }
 
-    @Test
+    @Test(description = "PRODUCT_0002 xxxxxxxxxxxxxxxxxxxxxxxxxxxx")
     public void TC_02_shouldBeView() {
         System.out.println("\t\t\tshouldBeView");
     }

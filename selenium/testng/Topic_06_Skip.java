@@ -8,7 +8,7 @@ public class Topic_06_Skip {
         System.out.println("\t\t\tshouldBeCreate");
     }
 
-    @Test
+    @Test(enabled = true)
     public void TC_02_shouldBeView() {
         System.out.println("\t\t\tshouldBeView");
     }
@@ -18,7 +18,7 @@ public class Topic_06_Skip {
         System.out.println("\t\t\tshouldBeEdit");
     }
 
-    @Test
+//    @Test
     public void TC_04_shouldBeDelete() {
         System.out.println("\t\t\tshouldBeDelete");
     }

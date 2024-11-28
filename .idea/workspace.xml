@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="TestNG Topic_07_Description">
-      <change afterPath="$PROJECT_DIR$/RunTest_09_Parameter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RunTest_10_Parallel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_08_Data_Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_09_Parameter.java" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="TestNG Topic_09_Parameter">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTest_13_Multiple_Suite_All_Features.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTest_13_Payment_Feature.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTest_13_Product_Feature.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTest_14_Run_Class.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTest_14_Run_Package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTest_15_Preserve_Order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RunTest_17_Listener.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataTest/user.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/commons-io-2.18.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/listener/ScreenshotListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_11_Timeout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_12_Depend_On_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_13_Listener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_03_Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testng/Topic_03_Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_23_Window_Tab.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_23_Window_Tab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02 - Selenium Webdriver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02 - Selenium Webdriver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_06_Skip.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testng/Topic_06_Skip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_07_Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testng/Topic_07_Description.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_10_Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testng/Topic_10_Loop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +71,12 @@
     "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_03_Package_Group.xml.executor": "Run",
     "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_09_Parameter.xml.executor": "Run",
     "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_10_Parallel.xml.executor": "Run",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_All_Features.xml.executor": "Run",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_Payment_Feature.xml.executor": "Run",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_Product_Feature.xml.executor": "Run",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_14_Package_Class.xml.executor": "Run",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_15_Run_Class_Preserve_Order.xml.executor": "Run",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml.executor": "Run",
     "TestNG.Topic_00_Template.executor": "Run",
     "TestNG.Topic_01_Annotation.executor": "Run",
     "TestNG.Topic_04_Always_Run.executor": "Run",
@@ -104,7 +122,12 @@
     "TestNG.Topic_09_List.TC_02_List_Print_With_Condition.executor": "Run",
     "TestNG.Topic_09_List.executor": "Run",
     "TestNG.Topic_09_Parameter.executor": "Run",
+    "TestNG.Topic_10_Loop.executor": "Run",
     "TestNG.Topic_10_Textbox_Textarea.TC_01_.executor": "Run",
+    "TestNG.Topic_11_Timeout.executor": "Run",
+    "TestNG.Topic_12_Depend_On_Test.executor": "Run",
+    "TestNG.Topic_13_Listener.TC_01_Textbox_Textarea.executor": "Run",
+    "TestNG.Topic_13_Listener.executor": "Run",
     "TestNG.Topic_18_Action_II.TC_05_Right_Click.executor": "Run",
     "TestNG.Topic_19_Action_III.TC_04_Drag_Drop_HTML5_Using_Java_Robot.executor": "Run",
     "TestNG.Topic_19_Action_III.TC_05_Scroll_To_element.executor": "Run",
@@ -144,12 +167,13 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.28735632",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver" />
+      <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver\libraries" />
       <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver\uploadFile" />
       <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver\sourceDoc" />
     </key>
@@ -164,10 +188,10 @@
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_10_Parallel.xml">
-    <configuration name="C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_09_Parameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml">
+    <configuration name="C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_15_Run_Class_Preserve_Order.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest_09_Parameter.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest_15_Run_Class_Preserve_Order.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -175,9 +199,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_10_Parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest_10_Parallel.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest_17_Listener.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -185,16 +209,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_23_Window_Tab" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_12_Depend_On_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_23_Window_Tab" />
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_12_Depend_On_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -202,35 +226,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_23_Window_Tab.TC_02_Live_TechPanda" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_13_Listener" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_23_Window_Tab" />
-      <option name="METHOD_NAME" value="TC_02_Live_TechPanda" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_13_Listener" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_34_Wait_Page_Ready.TC_01_Page_Ready_01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_13_Listener.TC_01_Textbox_Textarea" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_34_Wait_Page_Ready" />
-      <option name="METHOD_NAME" value="TC_01_Page_Ready_01" />
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_13_Listener" />
+      <option name="METHOD_NAME" value="TC_01_Textbox_Textarea" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -240,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_10_Parallel.xml" />
-        <item itemvalue="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_09_Parameter.xml" />
-        <item itemvalue="TestNG.Topic_23_Window_Tab.TC_02_Live_TechPanda" />
-        <item itemvalue="TestNG.Topic_23_Window_Tab" />
-        <item itemvalue="TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_01" />
+        <item itemvalue="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml" />
+        <item itemvalue="TestNG.Topic_13_Listener.TC_01_Textbox_Textarea" />
+        <item itemvalue="TestNG.Topic_13_Listener" />
+        <item itemvalue="TestNG.Topic_12_Depend_On_Test" />
+        <item itemvalue="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_15_Run_Class_Preserve_Order.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732690140402</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="TestNG Topic_09_Parameter">
+      <option name="closed" value="true" />
+      <created>1732701374843</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1732701374843</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +547,8 @@
     <MESSAGE value="Topic_31_Wait_Explicit_Ajax" />
     <MESSAGE value="Topic_34_Wait_Page_Ready" />
     <MESSAGE value="TestNG Topic_07_Description" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG Topic_07_Description" />
+    <MESSAGE value="TestNG Topic_09_Parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG Topic_09_Parameter" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
