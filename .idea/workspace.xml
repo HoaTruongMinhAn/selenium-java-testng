@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="TestNG Topic_09_Parameter">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RunTest_13_Multiple_Suite_All_Features.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RunTest_13_Payment_Feature.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RunTest_13_Product_Feature.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RunTest_14_Run_Class.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RunTest_14_Run_Package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RunTest_15_Preserve_Order.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RunTest_17_Listener.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataTest/user.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/commons-io-2.18.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/listener/ScreenshotListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_11_Timeout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_12_Depend_On_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_13_Listener.java" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="TestNG Topic_13_Listener">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_35_Shadow_DOM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 - Selenium Webdriver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02 - Selenium Webdriver.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_06_Skip.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testng/Topic_06_Skip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_07_Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testng/Topic_07_Description.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_10_Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testng/Topic_10_Loop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +144,9 @@
     "TestNG.Topic_34_Wait_Page_Ready.TC_01_.executor": "Run",
     "TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_01.executor": "Run",
     "TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02.executor": "Run",
+    "TestNG.Topic_35_Shadow_DOM.TC_01_.executor": "Run",
+    "TestNG.Topic_35_Shadow_DOM.TC_02_Books_Pwakit.executor": "Run",
+    "TestNG.Topic_35_Shadow_DOM.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver",
@@ -181,62 +167,18 @@
       <recent name="javaTester" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="webdriver" />
       <recent name="testng" />
       <recent name="product" />
       <recent name="payment" />
-      <recent name="webdriver" />
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml">
-    <configuration name="C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_15_Run_Class_Preserve_Order.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest_15_Run_Class_Preserve_Order.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_35_Shadow_DOM.TC_02_Books_Pwakit">
     <configuration name="C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest_17_Listener.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_12_Depend_On_Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testng" />
-      <option name="MAIN_CLASS_NAME" value="testng.Topic_12_Depend_On_Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_13_Listener" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testng" />
-      <option name="MAIN_CLASS_NAME" value="testng.Topic_13_Listener" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -261,13 +203,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_35_Shadow_DOM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_35_Shadow_DOM" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_35_Shadow_DOM.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_35_Shadow_DOM" />
+      <option name="METHOD_NAME" value="TC_01_" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_35_Shadow_DOM.TC_02_Books_Pwakit" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_35_Shadow_DOM" />
+      <option name="METHOD_NAME" value="TC_02_Books_Pwakit" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_35_Shadow_DOM.TC_02_Books_Pwakit" />
+        <item itemvalue="TestNG.Topic_35_Shadow_DOM" />
+        <item itemvalue="TestNG.Topic_35_Shadow_DOM.TC_01_" />
         <item itemvalue="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml" />
         <item itemvalue="TestNG.Topic_13_Listener.TC_01_Textbox_Textarea" />
-        <item itemvalue="TestNG.Topic_13_Listener" />
-        <item itemvalue="TestNG.Topic_12_Depend_On_Test" />
-        <item itemvalue="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_15_Run_Class_Preserve_Order.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -512,7 +507,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732701374843</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="TestNG Topic_13_Listener">
+      <option name="closed" value="true" />
+      <created>1732767976603</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1732767976603</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -548,7 +551,8 @@
     <MESSAGE value="Topic_34_Wait_Page_Ready" />
     <MESSAGE value="TestNG Topic_07_Description" />
     <MESSAGE value="TestNG Topic_09_Parameter" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG Topic_09_Parameter" />
+    <MESSAGE value="TestNG Topic_13_Listener" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG Topic_13_Listener" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
