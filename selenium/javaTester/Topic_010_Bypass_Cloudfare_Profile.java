@@ -54,6 +54,7 @@ public class Topic_010_Bypass_Cloudfare_Profile {
         edgeOptions.addArguments("--user-data-dir=C:\\Users\\anhoa\\AppData\\Local\\Microsoft\\Edge\\User Data\\");
         edgeOptions.addArguments("--profile-directory=Profile 1");
         driver = new EdgeDriver(edgeOptions);
+        driver.manage().window().maximize();
         explicitWait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
