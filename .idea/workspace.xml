@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="TestNG Topic_13_Listener">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_35_Shadow_DOM.java" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_35_Shadow_DOM">
+      <change afterPath="$PROJECT_DIR$/selenium/javaOOP/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaOOP/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_012_Polymorphism.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_002_Abstract_Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_002_Abstract_Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_002_Abstract_Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_002_Abstract_Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +43,14 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Dog.executor": "Run",
+    "Application.Topic_002_Abstract_Dog.executor": "Run",
     "Application.Topic_003_Path.executor": "Debug",
+    "Application.Topic_012_Polymorphism.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest.xml.executor": "Run",
@@ -153,7 +159,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.28735632",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -174,31 +180,42 @@
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_35_Shadow_DOM.TC_02_Books_Pwakit">
-    <configuration name="C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Topic_002_Abstract_Dog">
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaOOP.Dog" />
       <module name="02 - Selenium Webdriver" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest_17_Listener.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_13_Listener.TC_01_Textbox_Textarea" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_002_Abstract_Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_002_Abstract_Dog" />
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testng.*" />
+          <option name="PATTERN" value="javaTester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testng" />
-      <option name="MAIN_CLASS_NAME" value="testng.Topic_13_Listener" />
-      <option name="METHOD_NAME" value="TC_01_Textbox_Textarea" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_012_Polymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_012_Polymorphism" />
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,24 +231,6 @@
       <option name="PACKAGE_NAME" value="webdriver" />
       <option name="MAIN_CLASS_NAME" value="webdriver.Topic_35_Shadow_DOM" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_35_Shadow_DOM.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_35_Shadow_DOM" />
-      <option name="METHOD_NAME" value="TC_01_" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -258,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Topic_002_Abstract_Dog" />
+        <item itemvalue="Application.Topic_012_Polymorphism" />
+        <item itemvalue="Application.Dog" />
         <item itemvalue="TestNG.Topic_35_Shadow_DOM.TC_02_Books_Pwakit" />
         <item itemvalue="TestNG.Topic_35_Shadow_DOM" />
-        <item itemvalue="TestNG.Topic_35_Shadow_DOM.TC_01_" />
-        <item itemvalue="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml" />
-        <item itemvalue="TestNG.Topic_13_Listener.TC_01_Textbox_Textarea" />
       </list>
     </recent_temporary>
   </component>
@@ -515,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732767976603</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Topic_35_Shadow_DOM">
+      <option name="closed" value="true" />
+      <created>1732923279686</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1732923279686</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +559,8 @@
     <MESSAGE value="TestNG Topic_07_Description" />
     <MESSAGE value="TestNG Topic_09_Parameter" />
     <MESSAGE value="TestNG Topic_13_Listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG Topic_13_Listener" />
+    <MESSAGE value="Topic_35_Shadow_DOM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_35_Shadow_DOM" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

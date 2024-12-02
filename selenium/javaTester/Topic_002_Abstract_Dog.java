@@ -17,6 +17,12 @@ public class Topic_002_Abstract_Dog extends Topic_002_Abstract_Animal {
 
     public static void main(String[] args) {
         Topic_002_Abstract_Dog dog = new Topic_002_Abstract_Dog("Lulu");
-        System.out.println(dog.name);
+        System.out.println(dog.getName());
+
+        dog.eat();
+        dog.sleep();
+
+        dog.color = "white";
+        System.out.println(dog.color);
     }
 }
