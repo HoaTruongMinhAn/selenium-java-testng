@@ -20,6 +20,9 @@ public class Topic_003_Path {
         // Mac: /
         String separator = File.separator;
         System.out.println(separator);
+
+        System.out.println(System.getProperty("user.name"));
+        System.out.println(System.getenv("USERNAME"));
     }
 
 
