@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Topic_012_Polymorphism">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_013_Driver_Info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_002_Abstract_Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_002_Abstract_Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_010_Bypass_Cloudfare_Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_010_Bypass_Cloudfare_Profile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
     "Application.Topic_002_Abstract_Dog.executor": "Run",
     "Application.Topic_003_Path.executor": "Debug",
     "Application.Topic_012_Polymorphism.executor": "Run",
+    "Application.Topic_013_Driver_Info.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest.xml.executor": "Run",
@@ -177,7 +177,7 @@
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Topic_002_Abstract_Dog">
+  <component name="RunManager" selected="Application.Topic_013_Driver_Info">
     <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaOOP.Dog" />
       <module name="02 - Selenium Webdriver" />
@@ -217,19 +217,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_35_Shadow_DOM" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_013_Driver_Info" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_013_Driver_Info" />
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="javaTester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_35_Shadow_DOM" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Topic_013_Driver_Info" />
         <item itemvalue="Application.Topic_002_Abstract_Dog" />
         <item itemvalue="Application.Topic_012_Polymorphism" />
         <item itemvalue="Application.Dog" />
         <item itemvalue="TestNG.Topic_35_Shadow_DOM.TC_02_Books_Pwakit" />
-        <item itemvalue="TestNG.Topic_35_Shadow_DOM" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733133360250</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Topic_012_Polymorphism">
+      <option name="closed" value="true" />
+      <created>1733216370121</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1733216370121</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
