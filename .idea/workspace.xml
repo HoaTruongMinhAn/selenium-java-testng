@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Create BasePage">
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Clean trash files">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_014_ByLocator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,9 @@
     "Application.Topic_003_Path.executor": "Debug",
     "Application.Topic_012_Polymorphism.executor": "Run",
     "Application.Topic_013_Driver_Info.executor": "Run",
+    "Application.Topic_014_ByLocator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest.xml.executor": "Run",
     "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_02.xml.executor": "Run",
@@ -152,13 +155,20 @@
     "TestNG.Topic_35_Shadow_DOM.TC_01_.executor": "Run",
     "TestNG.Topic_35_Shadow_DOM.TC_02_Books_Pwakit.executor": "Run",
     "TestNG.Topic_35_Shadow_DOM.executor": "Run",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver",
+    "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/03 - Java Hybrid Framework/hybrid-nopcommerce-framework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.28735632",
-    "settings.editor.selected.configurable": "application.passwordSafe"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -172,14 +182,14 @@
       <recent name="javaTester" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javaTester" />
       <recent name="javaInheritance" />
       <recent name="webdriver" />
       <recent name="testng" />
       <recent name="product" />
-      <recent name="payment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoginPage">
+  <component name="RunManager" selected="Application.Topic_014_ByLocator">
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaInheritance.LoginPage" />
       <module name="02 - Selenium Webdriver" />
@@ -219,19 +229,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_012_Polymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_012_Polymorphism" />
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaTester.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Topic_013_Driver_Info" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaTester.Topic_013_Driver_Info" />
       <module name="02 - Selenium Webdriver" />
@@ -245,15 +242,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_014_ByLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_014_ByLocator" />
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Topic_014_ByLocator" />
+        <item itemvalue="Application.Topic_013_Driver_Info" />
         <item itemvalue="Application.LoginPage" />
         <item itemvalue="Application.OrderPage" />
-        <item itemvalue="Application.Topic_013_Driver_Info" />
         <item itemvalue="Application.Topic_002_Abstract_Dog" />
-        <item itemvalue="Application.Topic_012_Polymorphism" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -263,6 +281,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729130486403</updated>
+      <workItem from="1734512473651" duration="80000" />
+      <workItem from="1734512567074" duration="74000" />
+      <workItem from="1734513229640" duration="153000" />
+      <workItem from="1734513881761" duration="784000" />
+      <workItem from="1734514768781" duration="631000" />
+      <workItem from="1734515835989" duration="201000" />
+      <workItem from="1734516047607" duration="57000" />
+      <workItem from="1734516111766" duration="197000" />
+      <workItem from="1734518169835" duration="2913000" />
     </task>
     <task id="LOCAL-00001" summary="test from C">
       <option name="closed" value="true" />
@@ -544,8 +571,27 @@
       <option name="project" value="LOCAL" />
       <updated>1734496440176</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Create BasePage">
+      <option name="closed" value="true" />
+      <created>1734511155562</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1734511155562</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Clean trash files">
+      <option name="closed" value="true" />
+      <created>1734511216742</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1734511216742</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -559,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Topic 05" />
     <MESSAGE value="Attach Selenium document&#10;Topic 05 part 2" />
     <MESSAGE value="Topic_06_WebBrowser_Commands" />
     <MESSAGE value="Topic_07_WebBrowser_Commands_02&#10;Topic_07_WebElement_Commands_02" />
@@ -584,7 +629,8 @@
     <MESSAGE value="Topic_012_Polymorphism" />
     <MESSAGE value="Create Topic_013_Driver_Info" />
     <MESSAGE value="Create BasePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create BasePage" />
+    <MESSAGE value="Clean trash files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean trash files" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
