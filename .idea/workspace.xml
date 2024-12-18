@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Create Topic_013_Driver_Info">
-      <change afterPath="$PROJECT_DIR$/selenium/javaInheritance/AbstractClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaInheritance/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaInheritance/Interface1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaInheritance/Interface2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaInheritance/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaInheritance/OrderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaInheritance/SideBar.java" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Create BasePage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -543,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734423011683</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Create BasePage">
+      <option name="closed" value="true" />
+      <created>1734496440176</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1734496440176</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -558,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test from C" />
     <MESSAGE value="Topic 05" />
     <MESSAGE value="Attach Selenium document&#10;Topic 05 part 2" />
     <MESSAGE value="Topic_06_WebBrowser_Commands" />
@@ -583,7 +583,8 @@
     <MESSAGE value="Topic_35_Shadow_DOM" />
     <MESSAGE value="Topic_012_Polymorphism" />
     <MESSAGE value="Create Topic_013_Driver_Info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Topic_013_Driver_Info" />
+    <MESSAGE value="Create BasePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create BasePage" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
