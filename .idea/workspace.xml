@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Clean trash files">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_014_ByLocator.java" afterDir="false" />
+    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Create Topic_014_ByLocator">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/dynamicLocator/StringFormat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,135 +42,136 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Dog.executor": "Run",
-    "Application.LoginPage.executor": "Run",
-    "Application.OrderPage.executor": "Run",
-    "Application.Topic_002_Abstract_Dog.executor": "Run",
-    "Application.Topic_003_Path.executor": "Debug",
-    "Application.Topic_012_Polymorphism.executor": "Run",
-    "Application.Topic_013_Driver_Info.executor": "Run",
-    "Application.Topic_014_ByLocator.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_02.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_02_Package.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_03_Group.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_03_Package_Group.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_09_Parameter.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_10_Parallel.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_All_Features.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_Payment_Feature.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_Product_Feature.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_14_Package_Class.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_15_Run_Class_Preserve_Order.xml.executor": "Run",
-    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml.executor": "Run",
-    "TestNG.Topic_00_Template.executor": "Run",
-    "TestNG.Topic_01_Annotation.executor": "Run",
-    "TestNG.Topic_04_Always_Run.executor": "Run",
-    "TestNG.Topic_05_Priority.executor": "Run",
-    "TestNG.Topic_05_XPath_Tech.TC_02_XPath_With_Position.executor": "Run",
-    "TestNG.Topic_05_XPath_Tech.TC_03_XPath_With_AXES.executor": "Run",
-    "TestNG.Topic_05_XPath_Tech.executor": "Run",
-    "TestNG.Topic_05_XPath_Tech_02.executor": "Run",
-    "TestNG.Topic_06_Random_String.TC_02_Random_Using_Timestamp.executor": "Run",
-    "TestNG.Topic_06_Random_String.TC_03_Random_Using_UUID.executor": "Run",
-    "TestNG.Topic_06_Random_String.executor": "Run",
-    "TestNG.Topic_06_Skip.executor": "Run",
-    "TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor": "Run",
-    "TestNG.Topic_06_WebBrowser_Commands.executor": "Run",
-    "TestNG.Topic_06_WebBrowser_Commands_02.TC_02_2222222222.executor": "Run",
-    "TestNG.Topic_06_WebBrowser_Commands_02.TC_03_Page_Navigation.executor": "Run",
-    "TestNG.Topic_06_WebBrowser_Commands_02.TC_04_Page_Source.executor": "Run",
-    "TestNG.Topic_06_WebBrowser_Commands_02.executor": "Run",
-    "TestNG.Topic_07_Bypass_Cloudfare_Capcha.TC_01_Random_Using_Number.executor": "Run",
-    "TestNG.Topic_07_Description.executor": "Run",
-    "TestNG.Topic_07_If_Else.executor": "Run",
-    "TestNG.Topic_07_Loop.TC_02_For_Each.executor": "Run",
-    "TestNG.Topic_07_Loop.TC_03_Do_While.executor": "Run",
-    "TestNG.Topic_07_Loop.TC_03_While.executor": "Run",
-    "TestNG.Topic_07_Loop.executor": "Run",
-    "TestNG.Topic_07_WebElement_Commands.TC_01_Element.executor": "Run",
-    "TestNG.Topic_07_WebElement_Commands_02.TC_01_.executor": "Run",
-    "TestNG.Topic_07_WebElement_Commands_02.TC_02_Enabled.executor": "Run",
-    "TestNG.Topic_07_WebElement_Commands_02.TC_03_Selected.executor": "Run",
-    "TestNG.Topic_07_WebElement_Commands_02.TC_04_MailChimp.executor": "Run",
-    "TestNG.Topic_07_WebElement_Commands_03.Login_01_Empty_Email_And_Password.executor": "Run",
-    "TestNG.Topic_07_WebElement_Commands_03.Login_02_Invalid_Email.executor": "Run",
-    "TestNG.Topic_07_WebElement_Commands_03.Login_03_Password_Less_Than_6.executor": "Run",
-    "TestNG.Topic_07_WebElement_Commands_03.Login_04_Invalid_Email_And_Password.executor": "Run",
-    "TestNG.Topic_07_WebElement_Commands_03.executor": "Run",
-    "TestNG.Topic_08_Data_Provider.executor": "Run",
-    "TestNG.Topic_08_Textbox_Textarea.Login_01_Empty_Email_And_Password.executor": "Run",
-    "TestNG.Topic_09_Default_Dropdown.executor": "Run",
-    "TestNG.Topic_09_Default_Dropdown_02.TC_01_Rode.executor": "Run",
-    "TestNG.Topic_09_Default_Dropdown_02.executor": "Run",
-    "TestNG.Topic_09_List.TC_01_For.executor": "Run",
-    "TestNG.Topic_09_List.TC_01_List_Print_All.executor": "Run",
-    "TestNG.Topic_09_List.TC_02_List_Print_With_Condition.executor": "Run",
-    "TestNG.Topic_09_List.executor": "Run",
-    "TestNG.Topic_09_Parameter.executor": "Run",
-    "TestNG.Topic_10_Loop.executor": "Run",
-    "TestNG.Topic_10_Textbox_Textarea.TC_01_.executor": "Run",
-    "TestNG.Topic_11_Timeout.executor": "Run",
-    "TestNG.Topic_12_Depend_On_Test.executor": "Run",
-    "TestNG.Topic_13_Listener.TC_01_Textbox_Textarea.executor": "Run",
-    "TestNG.Topic_13_Listener.executor": "Run",
-    "TestNG.Topic_18_Action_II.TC_05_Right_Click.executor": "Run",
-    "TestNG.Topic_19_Action_III.TC_04_Drag_Drop_HTML5_Using_Java_Robot.executor": "Run",
-    "TestNG.Topic_19_Action_III.TC_05_Scroll_To_element.executor": "Run",
-    "TestNG.Topic_20_Frame_iFrame.TC_01_iFrame_FormSite.executor": "Run",
-    "TestNG.Topic_20_Frame_iFrame.TC_01_iFrame_Toidicodedao.executor": "Run",
-    "TestNG.Topic_20_Frame_iFrame.TC_03_Frame.executor": "Run",
-    "TestNG.Topic_20_Frame_iFrame.executor": "Run",
-    "TestNG.Topic_22_Random_Popup.TC_01_.executor": "Run",
-    "TestNG.Topic_22_Random_Popup.TC_01_Javacodegeeks.executor": "Run",
-    "TestNG.Topic_22_Random_Popup.TC_02_VNK.executor": "Run",
-    "TestNG.Topic_23_Window_Tab.TC_01_Github.executor": "Run",
-    "TestNG.Topic_23_Window_Tab.TC_02_Live_TechPanda.executor": "Run",
-    "TestNG.Topic_23_Window_Tab.TC_03_Cambridge.executor": "Run",
-    "TestNG.Topic_23_Window_Tab.TC_04_Selenium_4x.executor": "Run",
-    "TestNG.Topic_23_Window_Tab.TC_05_Selenium_4x_Live_Techpanda.executor": "Run",
-    "TestNG.Topic_23_Window_Tab.executor": "Run",
-    "TestNG.Topic_24_JavascriptExecutor.TC_01_Live_TechPanda.executor": "Run",
-    "TestNG.Topic_24_JavascriptExecutor.TC_01_Practice_Javascript.executor": "Run",
-    "TestNG.Topic_24b_JavascriptExecutor.TC_01_Live_TechPanda_Call_Function.executor": "Run",
-    "TestNG.Topic_24b_JavascriptExecutor.TC_03_Rode.executor": "Run",
-    "TestNG.Topic_25_Upload.TC_01_Single_File.executor": "Run",
-    "TestNG.Topic_25_Upload.TC_02_Multiple_File.executor": "Run",
-    "TestNG.Topic_25_Upload.executor": "Run",
-    "TestNG.Topic_31_Wait_Explicit_Ajax.TC_03_GoFile.executor": "Debug",
-    "TestNG.Topic_31_Wait_Explicit_Ajax.executor": "Run",
-    "TestNG.Topic_33_Wait_Fluent.TC_01_.executor": "Run",
-    "TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading.executor": "Run",
-    "TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_01.executor": "Run",
-    "TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_02.executor": "Run",
-    "TestNG.Topic_33_Wait_Fluent.TC_02_CountDown.executor": "Run",
-    "TestNG.Topic_34_Wait_Page_Ready.TC_01_.executor": "Run",
-    "TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_01.executor": "Run",
-    "TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02.executor": "Run",
-    "TestNG.Topic_35_Shadow_DOM.TC_01_.executor": "Run",
-    "TestNG.Topic_35_Shadow_DOM.TC_02_Books_Pwakit.executor": "Run",
-    "TestNG.Topic_35_Shadow_DOM.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/03 - Java Hybrid Framework/hybrid-nopcommerce-framework",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.28735632",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderPage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringFormat.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Topic_002_Abstract_Dog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Topic_003_Path.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Topic_012_Polymorphism.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Topic_013_Driver_Info.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Topic_014_ByLocator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_02.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_02_Package.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_03_Group.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_03_Package_Group.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_09_Parameter.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_10_Parallel.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_All_Features.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_Payment_Feature.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_Product_Feature.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_14_Package_Class.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_15_Run_Class_Preserve_Order.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_00_Template.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_01_Annotation.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_04_Always_Run.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_05_Priority.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_05_XPath_Tech.TC_02_XPath_With_Position.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_05_XPath_Tech.TC_03_XPath_With_AXES.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_05_XPath_Tech.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_05_XPath_Tech_02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_06_Random_String.TC_02_Random_Using_Timestamp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_06_Random_String.TC_03_Random_Using_UUID.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_06_Random_String.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_06_Skip.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_06_WebBrowser_Commands.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_06_WebBrowser_Commands_02.TC_02_2222222222.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_06_WebBrowser_Commands_02.TC_03_Page_Navigation.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_06_WebBrowser_Commands_02.TC_04_Page_Source.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_06_WebBrowser_Commands_02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_Bypass_Cloudfare_Capcha.TC_01_Random_Using_Number.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_Description.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_If_Else.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_Loop.TC_02_For_Each.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_Loop.TC_03_Do_While.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_Loop.TC_03_While.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_Loop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_WebElement_Commands.TC_01_Element.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_02_Enabled.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_03_Selected.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_04_MailChimp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_01_Empty_Email_And_Password.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_02_Invalid_Email.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_03_Password_Less_Than_6.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_04_Invalid_Email_And_Password.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_07_WebElement_Commands_03.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_08_Data_Provider.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_08_Textbox_Textarea.Login_01_Empty_Email_And_Password.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_Default_Dropdown.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_Default_Dropdown_02.TC_01_Rode.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_Default_Dropdown_02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_List.TC_01_For.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_List.TC_01_List_Print_All.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_List.TC_02_List_Print_With_Condition.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_List.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_Parameter.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_10_Loop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_10_Textbox_Textarea.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_11_Timeout.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_12_Depend_On_Test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_13_Listener.TC_01_Textbox_Textarea.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_13_Listener.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_18_Action_II.TC_05_Right_Click.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_19_Action_III.TC_04_Drag_Drop_HTML5_Using_Java_Robot.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_19_Action_III.TC_05_Scroll_To_element.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_20_Frame_iFrame.TC_01_iFrame_FormSite.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_20_Frame_iFrame.TC_01_iFrame_Toidicodedao.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_20_Frame_iFrame.TC_03_Frame.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_20_Frame_iFrame.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_22_Random_Popup.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_22_Random_Popup.TC_01_Javacodegeeks.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_22_Random_Popup.TC_02_VNK.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_23_Window_Tab.TC_01_Github.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_23_Window_Tab.TC_02_Live_TechPanda.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_23_Window_Tab.TC_03_Cambridge.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_23_Window_Tab.TC_04_Selenium_4x.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_23_Window_Tab.TC_05_Selenium_4x_Live_Techpanda.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_23_Window_Tab.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_24_JavascriptExecutor.TC_01_Live_TechPanda.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_24_JavascriptExecutor.TC_01_Practice_Javascript.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_24b_JavascriptExecutor.TC_01_Live_TechPanda_Call_Function.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_24b_JavascriptExecutor.TC_03_Rode.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_25_Upload.TC_01_Single_File.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_25_Upload.TC_02_Multiple_File.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_25_Upload.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_31_Wait_Explicit_Ajax.TC_03_GoFile.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.Topic_31_Wait_Explicit_Ajax.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_33_Wait_Fluent.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_33_Wait_Fluent.TC_02_CountDown.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_34_Wait_Page_Ready.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_35_Shadow_DOM.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_35_Shadow_DOM.TC_02_Books_Pwakit.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_35_Shadow_DOM.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/minhanhoa.truong/Automation/03 - Java Hybrid Framework/hybrid-nopcommerce-framework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28735632&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver" />
@@ -189,7 +190,7 @@
       <recent name="product" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Topic_014_ByLocator">
+  <component name="RunManager" selected="Application.StringFormat">
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaInheritance.LoginPage" />
       <module name="02 - Selenium Webdriver" />
@@ -216,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_002_Abstract_Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_002_Abstract_Dog" />
+    <configuration name="StringFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.dynamicLocator.StringFormat" />
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTester.*" />
+          <option name="PATTERN" value="javaTester.dynamicLocator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringFormat" />
         <item itemvalue="Application.Topic_014_ByLocator" />
         <item itemvalue="Application.Topic_013_Driver_Info" />
         <item itemvalue="Application.LoginPage" />
         <item itemvalue="Application.OrderPage" />
-        <item itemvalue="Application.Topic_002_Abstract_Dog" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +290,9 @@
       <workItem from="1734515835989" duration="201000" />
       <workItem from="1734516047607" duration="57000" />
       <workItem from="1734516111766" duration="197000" />
-      <workItem from="1734518169835" duration="2913000" />
+      <workItem from="1734518169835" duration="2993000" />
+      <workItem from="1734567252593" duration="2423000" />
+      <workItem from="1734570031998" duration="3066000" />
     </task>
     <task id="LOCAL-00001" summary="test from C">
       <option name="closed" value="true" />
@@ -587,7 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734511216742</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Create Topic_014_ByLocator">
+      <option name="closed" value="true" />
+      <created>1734521174119</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1734521174119</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +616,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Attach Selenium document&#10;Topic 05 part 2" />
     <MESSAGE value="Topic_06_WebBrowser_Commands" />
     <MESSAGE value="Topic_07_WebBrowser_Commands_02&#10;Topic_07_WebElement_Commands_02" />
     <MESSAGE value="Topic_08_Textbox_Textarea&#10;Topic_09_Default_Dropdown" />
@@ -630,7 +640,8 @@
     <MESSAGE value="Create Topic_013_Driver_Info" />
     <MESSAGE value="Create BasePage" />
     <MESSAGE value="Clean trash files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean trash files" />
+    <MESSAGE value="Create Topic_014_ByLocator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Topic_014_ByLocator" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
