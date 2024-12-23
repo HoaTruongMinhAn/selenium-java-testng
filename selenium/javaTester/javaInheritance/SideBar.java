@@ -1,4 +1,4 @@
-package javaInheritance;
+package javaTester.javaInheritance;
 
 public class SideBar extends BasePage{
     public static void sideBarFunc1(){

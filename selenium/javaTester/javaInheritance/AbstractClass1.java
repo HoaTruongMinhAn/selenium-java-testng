@@ -1,4 +1,4 @@
-package javaInheritance;
+package javaTester.javaInheritance;
 
 public abstract class AbstractClass1 {
     //Non-abstract method

@@ -1,4 +1,4 @@
-package javaOOP;
+package javaTester.javaOOP;
 
 public class Animals {
     private String name;

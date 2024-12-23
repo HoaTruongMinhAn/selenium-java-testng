@@ -1,4 +1,4 @@
-package javaInheritance;
+package javaTester.javaInheritance;
 
 public interface Interface2 {
     public static void interfaceFunc2(){

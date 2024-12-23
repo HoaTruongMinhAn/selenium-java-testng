@@ -1,4 +1,4 @@
-package javaInheritance;
+package javaTester.javaInheritance;
 
 public class BasePage {
     public static void basePageFunc1(){

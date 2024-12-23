@@ -1,4 +1,4 @@
-package javaInheritance;
+package javaTester.javaInheritance;
 
 public class LoginPage extends BasePage implements Interface1, Interface2 {
     public static void main(String[] args) {

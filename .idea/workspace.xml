@@ -1,238 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="Create Topic_014_ByLocator">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/dynamicLocator/StringFormat.java" afterDir="false" />
+    <list default="true" id="fb23a460-5489-4825-a81d-4a38d4e9d2e1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_2_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-webdriver-java-testng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-webdriver-java-testng.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaInheritance/AbstractClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/javaInheritance/AbstractClass1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaInheritance/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/javaInheritance/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaInheritance/Interface1.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/javaInheritance/Interface1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaInheritance/Interface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/javaInheritance/Interface2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaInheritance/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/javaInheritance/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaInheritance/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/javaInheritance/OrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaInheritance/SideBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/javaInheritance/SideBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaOOP/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaOOP/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_003_Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_003_System_Information.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SET_USER_NAME_GLOBALLY" value="false" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/sourceDoc/selenium-api-4.25.0-sources.jar!/org/openqa/selenium/WebElement.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2nXruWaO4OfbH2XJnu2voEUmFQy" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2qbPOjCInycrywSQf9pHHaDt4gA" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginPage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderPage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringFormat.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Topic_002_Abstract_Dog.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Topic_003_Path.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Topic_012_Polymorphism.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Topic_013_Driver_Info.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Topic_014_ByLocator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Topic_001_Keywords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Topic_003_System_Information.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_02.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_02_Package.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_03_Group.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_03_Package_Group.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_09_Parameter.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_10_Parallel.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_All_Features.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_Payment_Feature.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_13_Product_Feature.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_14_Package_Class.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_15_Run_Class_Preserve_Order.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_00_Template.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_01_Annotation.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_04_Always_Run.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_Priority.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_XPath_Tech.TC_02_XPath_With_Position.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_XPath_Tech.TC_03_XPath_With_AXES.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_XPath_Tech.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_XPath_Tech_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_Random_String.TC_02_Random_Using_Timestamp.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_Random_String.TC_03_Random_Using_UUID.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_Random_String.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_Skip.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands_02.TC_02_2222222222.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands_02.TC_03_Page_Navigation.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands_02.TC_04_Page_Source.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_Bypass_Cloudfare_Capcha.TC_01_Random_Using_Number.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_Description.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_If_Else.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_Loop.TC_02_For_Each.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_Loop.TC_03_Do_While.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_Loop.TC_03_While.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_Loop.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands.TC_01_Element.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_02_Enabled.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_03_Selected.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_02.TC_04_MailChimp.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_01_Empty_Email_And_Password.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_02_Invalid_Email.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_03_Password_Less_Than_6.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_03.Login_04_Invalid_Email_And_Password.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebElement_Commands_03.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_08_Data_Provider.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_08_Textbox_Textarea.Login_01_Empty_Email_And_Password.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_Default_Dropdown.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_Default_Dropdown_02.TC_01_Rode.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_Default_Dropdown_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_List.TC_01_For.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_List.TC_01_List_Print_All.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_List.TC_02_List_Print_With_Condition.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_List.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_Parameter.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_10_Loop.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_10_Textbox_Textarea.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_11_Timeout.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_12_Depend_On_Test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_13_Listener.TC_01_Textbox_Textarea.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_13_Listener.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_18_Action_II.TC_05_Right_Click.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_19_Action_III.TC_04_Drag_Drop_HTML5_Using_Java_Robot.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_19_Action_III.TC_05_Scroll_To_element.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_20_Frame_iFrame.TC_01_iFrame_FormSite.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_20_Frame_iFrame.TC_01_iFrame_Toidicodedao.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_20_Frame_iFrame.TC_03_Frame.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_20_Frame_iFrame.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_22_Random_Popup.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_22_Random_Popup.TC_01_Javacodegeeks.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_22_Random_Popup.TC_02_VNK.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_23_Window_Tab.TC_01_Github.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_23_Window_Tab.TC_02_Live_TechPanda.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_23_Window_Tab.TC_03_Cambridge.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_23_Window_Tab.TC_04_Selenium_4x.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_23_Window_Tab.TC_05_Selenium_4x_Live_Techpanda.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_23_Window_Tab.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_24_JavascriptExecutor.TC_01_Live_TechPanda.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_24_JavascriptExecutor.TC_01_Practice_Javascript.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_24b_JavascriptExecutor.TC_01_Live_TechPanda_Call_Function.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_24b_JavascriptExecutor.TC_03_Rode.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_25_Upload.TC_01_Single_File.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_25_Upload.TC_02_Multiple_File.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_25_Upload.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_31_Wait_Explicit_Ajax.TC_03_GoFile.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.Topic_31_Wait_Explicit_Ajax.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_33_Wait_Fluent.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_33_Wait_Fluent.TC_01_Dynamic_Loading_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_33_Wait_Fluent.TC_02_CountDown.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_34_Wait_Page_Ready.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_34_Wait_Page_Ready.TC_01_Page_Ready_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_35_Shadow_DOM.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_35_Shadow_DOM.TC_02_Books_Pwakit.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_35_Shadow_DOM.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/minhanhoa.truong/Automation/03 - Java Hybrid Framework/hybrid-nopcommerce-framework&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Software/Automation testing/Selenium/03 - Java Hybrid Framework/hybrid-nopcommerce-framework&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.28735632&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver" />
-      <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver\libraries" />
-      <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver\uploadFile" />
-      <recent name="C:\Users\minhanhoa.truong\Automation\02 - Selenium Webdriver\sourceDoc" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="javaTester" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="javaTester" />
-      <recent name="javaInheritance" />
-      <recent name="webdriver" />
-      <recent name="testng" />
-      <recent name="product" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.StringFormat">
-    <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaInheritance.LoginPage" />
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaInheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaInheritance.OrderPage" />
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaInheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.dynamicLocator.StringFormat" />
-      <module name="02 - Selenium Webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaTester.dynamicLocator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_013_Driver_Info" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_013_Driver_Info" />
-      <module name="02 - Selenium Webdriver" />
+  <component name="RunManager" selected="Application.Topic_001_Keywords">
+    <configuration name="Topic_001_Keywords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_001_Keywords" />
+      <module name="selenium-webdriver-java-testng" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javaTester.*" />
@@ -243,9 +66,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_014_ByLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_014_ByLocator" />
-      <module name="02 - Selenium Webdriver" />
+    <configuration name="Topic_003_System_Information" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_003_System_Information" />
+      <module name="selenium-webdriver-java-testng" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javaTester.*" />
@@ -258,397 +81,33 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringFormat" />
-        <item itemvalue="Application.Topic_014_ByLocator" />
-        <item itemvalue="Application.Topic_013_Driver_Info" />
-        <item itemvalue="Application.LoginPage" />
-        <item itemvalue="Application.OrderPage" />
+        <item itemvalue="Application.Topic_001_Keywords" />
+        <item itemvalue="Application.Topic_003_System_Information" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="10342430-1c0b-4c51-83ee-24f52b93e4dd" name="Changes" comment="" />
-      <created>1729130486403</created>
+      <changelist id="fb23a460-5489-4825-a81d-4a38d4e9d2e1" name="Changes" comment="" />
+      <created>1734928274801</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1729130486403</updated>
-      <workItem from="1734512473651" duration="80000" />
-      <workItem from="1734512567074" duration="74000" />
-      <workItem from="1734513229640" duration="153000" />
-      <workItem from="1734513881761" duration="784000" />
-      <workItem from="1734514768781" duration="631000" />
-      <workItem from="1734515835989" duration="201000" />
-      <workItem from="1734516047607" duration="57000" />
-      <workItem from="1734516111766" duration="197000" />
-      <workItem from="1734518169835" duration="2993000" />
-      <workItem from="1734567252593" duration="2423000" />
-      <workItem from="1734570031998" duration="3066000" />
+      <updated>1734928274801</updated>
+      <workItem from="1734928276004" duration="185000" />
+      <workItem from="1734928540009" duration="2000" />
     </task>
-    <task id="LOCAL-00001" summary="test from C">
-      <option name="closed" value="true" />
-      <created>1729131694190</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1729131694190</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Topic 05">
-      <option name="closed" value="true" />
-      <created>1729135641535</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1729135641535</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Topic 05">
-      <option name="closed" value="true" />
-      <created>1729244479574</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1729244479574</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Attach Selenium document&#10;Topic 05 part 2">
-      <option name="closed" value="true" />
-      <created>1729417977007</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1729417977007</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Topic_06_WebBrowser_Commands">
-      <option name="closed" value="true" />
-      <created>1729504256840</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1729504256840</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Topic_07_WebBrowser_Commands_02&#10;Topic_07_WebElement_Commands_02">
-      <option name="closed" value="true" />
-      <created>1729589154773</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1729589154773</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Topic_08_Textbox_Textarea&#10;Topic_09_Default_Dropdown">
-      <option name="closed" value="true" />
-      <created>1729676581897</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1729676581897</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Topic_09_Default_Dropdown_02">
-      <option name="closed" value="true" />
-      <created>1729763151031</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1729763151031</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Topic_09_Default_Dropdown">
-      <option name="closed" value="true" />
-      <created>1729810294659</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1729810294659</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Topic_09_Default_Dropdown_02">
-      <option name="closed" value="true" />
-      <created>1729816505659</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1729816505659</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Topic_006_Wait">
-      <option name="closed" value="true" />
-      <created>1729829157905</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1729829157905</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Topic_006_Wait">
-      <option name="closed" value="true" />
-      <created>1729843054868</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1729843054871</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Topic_18_Action_II">
-      <option name="closed" value="true" />
-      <created>1730682579704</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1730682579704</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Topic_19_Action_III">
-      <option name="closed" value="true" />
-      <created>1731313235108</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1731313235108</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Topic_20_Frame_iFrame">
-      <option name="closed" value="true" />
-      <created>1731318651771</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1731318651771</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Topic_20_Frame_iFrame">
-      <option name="closed" value="true" />
-      <created>1731382102842</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1731382102842</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Topic_22_Random_Popup">
-      <option name="closed" value="true" />
-      <created>1732010381606</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1732010381606</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Topic_23_Window_Tab">
-      <option name="closed" value="true" />
-      <created>1732096045997</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1732096045997</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Topic_23_Window_Tab">
-      <option name="closed" value="true" />
-      <created>1732096250336</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1732096250336</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Topic_24_JavascriptExecutor">
-      <option name="closed" value="true" />
-      <created>1732171374905</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1732171374905</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Topic_24_JavascriptExecutor">
-      <option name="closed" value="true" />
-      <created>1732171673112</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1732171673112</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Topic_24b_JavascriptExecutor">
-      <option name="closed" value="true" />
-      <created>1732182622172</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1732182622172</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Topic_24b_JavascriptExecutor">
-      <option name="closed" value="true" />
-      <created>1732182926131</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1732182926131</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Topic_24b_JavascriptExecutor">
-      <option name="closed" value="true" />
-      <created>1732231774328</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1732231774328</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Topic_25_Upload">
-      <option name="closed" value="true" />
-      <created>1732240088082</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1732240088082</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Topic_31_Wait_Explicit_Ajax">
-      <option name="closed" value="true" />
-      <created>1732508324521</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1732508324521</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Topic_34_Wait_Page_Ready">
-      <option name="closed" value="true" />
-      <created>1732528536186</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1732528536186</updated>
-    </task>
-    <task id="LOCAL-00028" summary="TestNG Topic_07_Description">
-      <option name="closed" value="true" />
-      <created>1732690140402</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1732690140402</updated>
-    </task>
-    <task id="LOCAL-00029" summary="TestNG Topic_09_Parameter">
-      <option name="closed" value="true" />
-      <created>1732701374843</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1732701374843</updated>
-    </task>
-    <task id="LOCAL-00030" summary="TestNG Topic_13_Listener">
-      <option name="closed" value="true" />
-      <created>1732767976603</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1732767976603</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Topic_35_Shadow_DOM">
-      <option name="closed" value="true" />
-      <created>1732923279686</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1732923279686</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Topic_012_Polymorphism">
-      <option name="closed" value="true" />
-      <created>1733133360250</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1733133360250</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Topic_012_Polymorphism">
-      <option name="closed" value="true" />
-      <created>1733216370121</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1733216370121</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Create Topic_013_Driver_Info">
-      <option name="closed" value="true" />
-      <created>1734423011683</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1734423011683</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Create BasePage">
-      <option name="closed" value="true" />
-      <created>1734496440176</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1734496440176</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Create BasePage">
-      <option name="closed" value="true" />
-      <created>1734511155562</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1734511155562</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Clean trash files">
-      <option name="closed" value="true" />
-      <created>1734511216742</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1734511216742</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Create Topic_014_ByLocator">
-      <option name="closed" value="true" />
-      <created>1734521174119</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1734521174119</updated>
-    </task>
-    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Topic_06_WebBrowser_Commands" />
-    <MESSAGE value="Topic_07_WebBrowser_Commands_02&#10;Topic_07_WebElement_Commands_02" />
-    <MESSAGE value="Topic_08_Textbox_Textarea&#10;Topic_09_Default_Dropdown" />
-    <MESSAGE value="Topic_09_Default_Dropdown" />
-    <MESSAGE value="Topic_09_Default_Dropdown_02" />
-    <MESSAGE value="Topic_006_Wait" />
-    <MESSAGE value="Topic_18_Action_II" />
-    <MESSAGE value="Topic_19_Action_III" />
-    <MESSAGE value="Topic_20_Frame_iFrame" />
-    <MESSAGE value="Topic_22_Random_Popup" />
-    <MESSAGE value="Topic_23_Window_Tab" />
-    <MESSAGE value="Topic_24_JavascriptExecutor" />
-    <MESSAGE value="Topic_24b_JavascriptExecutor" />
-    <MESSAGE value="Topic_25_Upload" />
-    <MESSAGE value="Topic_31_Wait_Explicit_Ajax" />
-    <MESSAGE value="Topic_34_Wait_Page_Ready" />
-    <MESSAGE value="TestNG Topic_07_Description" />
-    <MESSAGE value="TestNG Topic_09_Parameter" />
-    <MESSAGE value="TestNG Topic_13_Listener" />
-    <MESSAGE value="Topic_35_Shadow_DOM" />
-    <MESSAGE value="Topic_012_Polymorphism" />
-    <MESSAGE value="Create Topic_013_Driver_Info" />
-    <MESSAGE value="Create BasePage" />
-    <MESSAGE value="Clean trash files" />
-    <MESSAGE value="Create Topic_014_ByLocator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Topic_014_ByLocator" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="TestNG">
-        <watch expression="email" language="JAVA" />
-        <watch expression="driver" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
