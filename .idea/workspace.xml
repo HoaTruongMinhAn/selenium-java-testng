@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38e280b1-133d-4081-a383-d5ff16128835" name="Changes" comment="Create Hard_Assert">
+    <list default="true" id="38e280b1-133d-4081-a383-d5ff16128835" name="Changes" comment="Delete Hard_Assert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/GlobalConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/assertVerify/Hard_Assert.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +169,7 @@
       <updated>1735047394802</updated>
       <workItem from="1735047395942" duration="336000" />
       <workItem from="1735047794202" duration="1069000" />
-      <workItem from="1735089826896" duration="3793000" />
+      <workItem from="1735089826896" duration="4658000" />
     </task>
     <task id="LOCAL-00001" summary="Restructure folder again">
       <option name="closed" value="true" />
@@ -197,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735048862493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Delete Hard_Assert">
+      <option name="closed" value="true" />
+      <created>1735097530768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735097530768</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +212,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Restructure folder again" />
     <MESSAGE value="Create Hard_Assert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Hard_Assert" />
+    <MESSAGE value="Delete Hard_Assert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete Hard_Assert" />
   </component>
 </project>
