@@ -36,6 +36,12 @@ public class Topic_003_System_Information {
         //Get OS user name
         System.out.println("OS user name: " + System.getProperty("user.name"));
         System.out.println("OS user name: " + System.getenv("USERNAME"));
+
+        //Get java version
+        System.out.println("Java version: " + System.getProperty("java.version"));
+
+
+
     }
 
 
