@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38e280b1-133d-4081-a383-d5ff16128835" name="Changes" comment="Delete Hard_Assert" />
+    <list default="true" id="38e280b1-133d-4081-a383-d5ff16128835" name="Changes" comment="Delete Hard_Assert">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_015_Close_Browser_By_CMD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_015_Close_Browser_By_Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,58 +36,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.StringFormat.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Topic_001_Keywords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Topic_003_System_Information.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Topic_013_Driver_Info.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Topic_014_ByLocator.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_14_Run_Class.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Hard_Assert.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNG_01_Hard_Assert.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNG_02_Soft_Assert.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_08_Data_Provider.executor&quot;: &quot;Run&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/sourceDoc/testng-7.10.2-sources.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.StringFormat.executor": "Run",
+    "Application.Topic_001_Keywords.executor": "Run",
+    "Application.Topic_003_System_Information.executor": "Run",
+    "Application.Topic_013_Driver_Info.executor": "Run",
+    "Application.Topic_014_ByLocator.executor": "Run",
+    "Application.Topic_015_Close_Browser.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_14_Run_Class.xml.executor": "Run",
+    "TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml.executor": "Run",
+    "TestNG.Hard_Assert.executor": "Run",
+    "TestNG.TestNG_01_Hard_Assert.executor": "Run",
+    "TestNG.TestNG_02_Soft_Assert.executor": "Run",
+    "TestNG.Topic_01_Annotation.executor": "Run",
+    "TestNG.Topic_08_Data_Provider.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/sourceDoc/testng-7.10.2-sources.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="javaTester" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javaTester" />
       <recent name="javaTester.assertVerify" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNG_01_Hard_Assert">
-    <configuration name="C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_14_Run_Class.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Topic_015_Close_Browser_By_CMD">
+    <configuration name="Topic_015_Close_Browser_By_CMD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_015_Close_Browser_By_CMD" />
       <module name="02 - Selenium Webdriver" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest_14_Run_Class.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="02 - Selenium Webdriver" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest_17_Listener.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,6 +122,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_01_Annotation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="02 - Selenium Webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_01_Annotation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Topic_08_Data_Provider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="02 - Selenium Webdriver" />
       <extension name="coverage">
@@ -141,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Topic_015_Close_Browser_By_CMD" />
+        <item itemvalue="TestNG.Topic_01_Annotation" />
         <item itemvalue="TestNG.TestNG_01_Hard_Assert" />
         <item itemvalue="TestNG.TestNG_02_Soft_Assert" />
         <item itemvalue="TestNG.Topic_08_Data_Provider" />
-        <item itemvalue="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_14_Run_Class.xml" />
-        <item itemvalue="TestNG.C:/Users/minhanhoa.truong/Automation/02 - Selenium Webdriver/RunTest_17_Listener.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +185,8 @@
       <workItem from="1735047395942" duration="336000" />
       <workItem from="1735047794202" duration="1069000" />
       <workItem from="1735089826896" duration="4658000" />
+      <workItem from="1735705244595" duration="835000" />
+      <workItem from="1735727288168" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="Restructure folder again">
       <option name="closed" value="true" />
